@@ -1,0 +1,814 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-ru" xml:lang="ru-ru">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://lazarus.iboards.ru/viewtopic.php?f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622","20260604192509","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1780601109");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-language" content="ru-ru"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="resource-type" content="document"/>
+<meta name="distribution" content="global"/>
+<meta name="copyright" content="2002-2006 phpBB Group"/>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<title>Lazarus project &bull; Просмотр темы - Ubuntu 10.04 (Lucid Lynx) by Lazarus</title>
+
+<link rel="alternate" type="application/rss+xml" title="Lazarus project" href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/rss.php"/>
+<link rel="stylesheet" href="https://web.archive.org/web/20260604192509cs_/http://lazarus.iboards.ru/style.php?sid=d310331921a8b6cb7a1a4a6e465f322a&amp;id=22&amp;lang=en" type="text/css"/>
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Введите номер страницы, на которую хотите перейти:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/index.php?sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/logo.png" alt="" title=""/></a></td>
+			<td width="100%" align="center"><p><h1 style="font-size: 30px; color: #660099">Lazarus project</h1></p><p><h1 style="font-size: 15px;"></h1></p></td>
+		</tr>
+		</table>
+	</div>
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/ucp.php?mode=login&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_login.gif" width="12" height="13" alt="*"/> Вход</a>&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/ucp.php?mode=register&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_register.gif" width="12" height="13" alt="*"/> Регистрация</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/gallery/index.php?sid=d310331921a8b6cb7a1a4a6e465f322a" title="Альбомы изображений"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_gallery.gif" width="12" height="13" alt="*"/> Альбомы</a>&nbsp; &nbsp;
+				<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/faq.php?sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*"/> FAQ</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/search.php?sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_search.gif" width="12" height="13" alt="*"/> Поиск</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Текущее время: 04 июн 2026, 22:25<br/></td>
+		</tr>
+		</table>
+	</div>
+</div>
+
+<div id="wrapcentre">
+	<p class="searchbar">
+		<span style="float: left;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/search.php?search_id=unanswered&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">Сообщения без ответов</a> | <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/search.php?search_id=active_topics&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">Активные темы</a></span>
+			</p>
+	
+	<br style="clear: both;"/>
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/portal.php?sid=d310331921a8b6cb7a1a4a6e465f322a">Портал</a> &#187; <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/index.php?sid=d310331921a8b6cb7a1a4a6e465f322a">Список форумов</a> &#187; <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewforum.php?f=44&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">(X)Ubuntu Linux</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+	<br/>
+
+<div id="pageheader">
+	<h2><a class="titles" href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?f=44&amp;t=5&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">Ubuntu 10.04 (Lucid Lynx) by Lazarus</a></h2>
+
+</div>
+
+<br clear="all"/><br/>
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=44&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=44&amp;t=5&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>1</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 8 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?f=44&amp;t=5&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=d310331921a8b6cb7a1a4a6e465f322a&amp;view=print" title="Для печати">Для печати</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?f=44&amp;t=5&amp;view=previous&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">Пред. тема</a> | <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?f=44&amp;t=5&amp;view=next&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">След. тема</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Автор</th>
+			<th>Сообщение</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p9"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Ubuntu 10.04 (Lucid Lynx) by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=9&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p9"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 22 сен 2011, 09:01&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><span style="font-size: 150%; line-height: normal">Ubuntu 10.04 (Lucid Lynx) by Lazarus</span><br/><br/>Ядро Linux 2.6.32, десктоп-окружение Gnome 2.30, Xorg 7.4.<br/><br/><a href="https://web.archive.org/web/20260604192509/http://saveimg.ru/show-image.php?id=367517c5cac2ab82144fc4cf98d896c6" class="postlink" target="_blank"><img src="https://web.archive.org/web/20260604192509im_/http://saveimg.ru/thumbnails/20-02-11/08b17e50e60bacc37c13d121f922c422.jpg" alt="Изображение"/></a><br/><br/><div style="border-top: 2px solid #B9CBDC; border-left: 2px solid #B9CBDC; border-right: 2px solid #B9CBDC; border-bottom: 1px solid #B9CBDC; font-size: 1em;"><div style="border-bottom: 1px solid #B9CBDC; background-color: #CADCEB; padding: 3px; font-size: 0.9em; font-weight: bold; display: block;"><span style="cursor: pointer;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') {  this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerHTML = '<b><a href=\'#\' onClick=\'return false;\'><img src=\'http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_minus_1.gif\' width=\'9\' height=\'9\' border=\'0\'></a> Отличия от базовой версии</b>'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerHTML = '<b><a href=\'#\' onClick=\'return false;\'><img src=\'http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_plus_1.gif\' width=\'9\' height=\'9\' border=\'0\'></a> Отличия от базовой версии</b>'; }"/><b><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="return false;"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_plus_1.gif" alt="" width="9" height="9" border="0"></a>&nbsp;Отличия от базовой версии</b></span></div><div><div style="display: none; border-bottom: 1px solid #B9CBDC; padding: 3px;">- Добавлены русская локализация, кодеки и дополнительное программное обеспечение;<br/>- Кэш содержит драйверы видеокарт FGLRX &#40;ATI Radeon&#41; и на все версии видеокарт NVIDIA &#40;с 96 до 195&#41;;<br/>- Архиватор корректно отображает кириллицу в zip-архивах;<br/>- Gnochm открывает файлы на кириллице;<br/>- Samba понимает кириллические имена компьютеров в сети;<br/>- Обновлен VLC-player;<br/>- Openoffice - по умолчанию предлагает сохранить файлы в формате doc и xls;<br/>- Googleearth и Skype адаптированы для работы при включенном Cairo-dock в режиме opengl;<br/>- Для корректной <a href="https://web.archive.org/web/20260604192509/http://otvety.google.ru/otvety/thread?tid=3006c48e416204fb" class="postlink" target="_blank">смены курсора</a> при включенных эффектах, в пункт меню &quot;системные утилиты&quot; добавлен пункт &quot;Выбор курсора&quot;;<br/>- Для смены темы Plymouth в пункт меню &quot;системные утилиты&quot; добавлен пункт &quot;Выбор темы Plymouth&quot;;<br/>- Устранен баг с <a href="https://web.archive.org/web/20260604192509/http://rosinka.rosix.ru/index.php?topic=470.0" class="postlink" target="_blank">floppy-дисководом</a>;<br/>- В пункт меню &quot;системные утилиты&quot; добавлен ярлык &quot;Emerald window decorator&quot; &#40;пакет emerald-icon&#41;;<br/>- Исправлен <a href="https://web.archive.org/web/20260604192509/http://mintlinux.ru/index.php?topic=863.0" class="postlink" target="_blank">баг с keyring</a>, связанный с несохранением паролей;<br/>- Добавлены дополнения Mozilla Firefox &#40;AdblockPlus, Flashgot, Get File Size, ImgLikeOpera, PhZilla, UnMHT, Яндекс.Бар&#41;;<br/>- На рабочем столе используется одна нижняя панель &#40;см. screenshot&#41;;<br/>- На панель задач добавлен переключатель рабочих столов, подключенные носители теперь отображаются не на рабочем столе а в более привычном для начинающих пользователей месте - в трее, откуда их можно извлечь;<br/>- Интегрированы обновления по 26.02.2011 г.</div></div></div><br/><br/><div style="border-top: 2px solid #B9CBDC; border-left: 2px solid #B9CBDC; border-right: 2px solid #B9CBDC; border-bottom: 1px solid #B9CBDC; font-size: 1em;"><div style="border-bottom: 1px solid #B9CBDC; background-color: #CADCEB; padding: 3px; font-size: 0.9em; font-weight: bold; display: block;"><span style="cursor: pointer;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') {  this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerHTML = '<b><a href=\'#\' onClick=\'return false;\'><img src=\'http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_minus_1.gif\' width=\'9\' height=\'9\' border=\'0\'></a> Добавленное программное обеспечение</b>'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerHTML = '<b><a href=\'#\' onClick=\'return false;\'><img src=\'http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_plus_1.gif\' width=\'9\' height=\'9\' border=\'0\'></a> Добавленное программное обеспечение</b>'; }"/><b><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="return false;"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_plus_1.gif" alt="" width="9" height="9" border="0"></a>&nbsp;Добавленное программное обеспечение</b></span></div><div><div style="display: none; border-bottom: 1px solid #B9CBDC; padding: 3px;">acidrip - программа для извлечения и перекодирования видео с DVD,<br/>additional-shortcuts - &quot;Выбор курсора&quot; и &quot;Выбор темы Plymouth&quot;,<br/>alien - утилита для преобразования пакетов rpm, deb и т.п.,<br/>aptoncd - программа для создания диска с репозиторием,<br/>audacity - аудиоредактор,<br/>blender - инструмент для 3D-моделирования,<br/>bless-hex-editor - шестнадцатеричный редактор,<br/>cairo-dock - докбар в стиле MacOS,<br/>cheese - программа для работы с web-камерой,<br/>d4x - менеджер закачек,<br/>deadbeef - аудиоплеер,<br/>devede - программа для создания видео DVD и CD,<br/>dockbarx - панель задач в стиле Windows7,<br/>dosbox - DOS-эмулятор,<br/>dvd95 - программа для преобразования DVD-9 в DVD-5,<br/>dvdisaster - утилита для чтения данных с поврежденных носителей,<br/>easytag - редактор тэгов в аудиофайлах,<br/>eiskaltdcpp - клиент DC++,<br/>emerald - красивый оконный декоратор,<br/>extremetuxracer - игра,<br/>filezilla - менеджер закачек ftp,<br/>frozen-bubble - игра,<br/>gespeaker - программа, произносящая текст,<br/>gextractwinicons - инструмент для извлечения курсоров и изображений из MS Windows файлов,<br/>gimp - фоторедактор,<br/>gmount-iso - приложение для монтирования iso-образов,<br/>gnochm - просмотровщик chm,<br/>gnome-exe-thumbnailer - утилита для отображения MS Windows exe-файлов,<br/>gnome-games - игры,<br/>gnome-ppp - приложение для работы с модемом &#40;звонилка&#41;,<br/>gnome-schedule - планировщик задач,<br/>gnome-themes-extras - дополнительные темы,<br/>gnome-themes-more - дополнительные темы,<br/>gnomeradio - программа для работы с радио,<br/>googleearth - Google планета Земля,<br/>google-chrome - быстрый браузер,<br/>google-gadgets - гаджеты Google,<br/>gparted - инструмент для работы с дисковыми разделами,<br/>gpm - утилита для использования мыши в терминале,<br/>gpoweroff - приложение для запланированного отключения компьютера,<br/>gprename - программа для группового переименования файлов,<br/>grub-customizer - менеджер загрузки,<br/>gtk-recordmydesktop - инструмент для записи видео с вашего экрана,<br/>gxneur - автоматический переключатель раскладок,<br/>imagination - программа, позволяющая создавать слайдшоу из фотографий,<br/>inkscape - векторный графический редактор,<br/>ircp-tray - инструмент для работы с IrDA,<br/>isomaster - редактор ISO-образов,<br/>kcheckers - игра,<br/>kino - видеоредактор,<br/>lbreakout2 - игра,<br/>lightscribe - инструмент для нанесения рисунков на диски,<br/>manpages-ru - справочные материалы,<br/>mc - консольный файловый менеджер,<br/>mintbackup - утилита резервного копирования,<br/>mintmenu - удобный и функциональный апплет меню,<br/>mountmanager - приложение для настройки параметров монтирования разделов,<br/>openprinting-ppds-extra - драйверы для принтеров,<br/>oxygen-cursor-theme-extra - красивые курсоры,<br/>parcellite - менеджер буфера обмена,<br/>qcad - программа для разработки чертежей,<br/>qutim - клиент мгновенного обмена сообщениями,<br/>reconstructor - утилита для создания сборки на основе Ubuntu,<br/>remmina - клиент удаленного рабочего стола,<br/>skype - приложение для совершения обычных и видео-звонков через интернет,<br/>soundconverter - универсальный аудиоконвертер,<br/>stardict - многоязычный словарь,<br/>startupmanager - менеджер загрузки,<br/>supertux - игра,<br/>system-config-samba - инструмент для настройки общего доступа по сети,<br/>testdisk - утилита проверки дисков и восстановления данных,<br/>teamviewer - программа для удаленного контроля компьютеров, обмена файлами между управляющей и управляемой машинами,<br/>tvtime - приложение для просмотра телевизионных передач,<br/>ubuntu-tweak - инструмент для гибкой настройки Ubuntu,<br/>usb-modeswitch - утилита для работы с 3G-модемами,<br/>virtualbox - виртуальная машина,<br/>wammu - приложение для управления сотовыми телефонами,<br/>wine - программа для запуска приложений MS Windows,<br/>winff - видеоконвертер,<br/>xawtv - приложение для просмотра телевизионных передач,<br/>xsane - утилита для работы со сканером,<br/>yagf - программа для распознавания текста из графических файлов или со сканера.</div></div></div><br/><br/>Ссылки для скачивания:<br/><a href="https://web.archive.org/web/20260604192509/http://sourceforge.net/projects/lazarusproject/files/Ubuntu%2010.04/" class="postlink" target="_blank">sourceforge.net</a><br/><a href="https://web.archive.org/web/20260604192509/http://tfile.ru/forum/viewtopic.php?t=440083" class="postlink" target="_blank">torrents</a><br/><br/>md5: 42714767dfd45aa70029d605c4208e15<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=9&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p264"></a>
+				<b class="postauthor">LEXXX</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: Сборка &quot;Ubuntu 10.04 (Lucid Lynx)&quot;</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=264&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p264"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 04 ноя 2011, 11:04&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 04 ноя 2011, 10:59<br/><b>Сообщений:</b> 1<br/><b>Cпасибо сказано:</b> 0<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Отличная ось!  <img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/smilies/icon_e_smile.gif" alt=":)" title="Улыбается"/>  Lazarus - огромное спасибо, за замечательную сборку!!!<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=102&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=264&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p571"></a>
+				<b class="postauthor">balticus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: Сборка &quot;Ubuntu 10.04 (Lucid Lynx)&quot;</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=571&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p571"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 02 мар 2012, 03:32&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 02 мар 2012, 03:01<br/><b>Сообщений:</b> 1<br/><b>Cпасибо сказано:</b> 1<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Lazarus, спасибо за ваши сборки!!!<br/>Данная сборка у меня не пошла. При загрузке с DVD и с флешки в лайф-режиме лого &quot;Ubuntu&quot; с анимацией проходит и чёрный экран, дисплей говорит &quot;нет сигнала&quot; и вообще вырубается (периодически включается, но ничего не показывает, опять говорит &quot;нет сигнала&quot; и вырубается). Ctrl+Alt+F1 ничего не дают. Ctrl+Alt+Del работает -появляется предложение вытащить медиа и нажать энтер.<br/>Думал установленная будет работать, установил, всё прошло нормально, но загрузиться в неё нормально не удаётся - то же самое после лого с анимацией чёрный экран и дисплей вырубается. Всякие комбинации клавиш пробовал, ничего не произошло.<br/>Записывал на диск с помощью неро под виндой (верификация успешна), на флешку с помощью Unetbootin под линуксом. MD5-суммы проверял. Пробовал дистрибутивы и с tfile.ru и с яндекса.<br/>Материнка Asus M5A78L-M/USB3, Видео ATI Radeon HD 5700, процессор AMD Phenom(tm) II X4<br/>В чём может быть причина, подскажите пожалуйста?<br/><br/>Вопрос снят! Загрузился в режим восстановления - с низким видео-разрешением, поставил проприетарный видеодрайвер, всё заработало.  <img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/smilies/icon_cool.gif" alt="8-)" title="Все путём"/><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=158&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=571&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p810"></a>
+				<b class="postauthor">WAKQ814</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: Сборка &quot;Ubuntu 10.04 (Lucid Lynx)&quot;</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=810&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p810"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 05 июн 2012, 05:17&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 05 июн 2012, 04:57<br/><b>Сообщений:</b> 3<br/><b>Cпасибо сказано:</b> 5<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Отличная ось!   Lazarus - огромное спасибо, за замечательную сборку  И СТАБИЛЬНУЮ СБОРКУ.   С ЭТОЙ СБОРКОЙ  У МЕНЯ НЕ  было ПРОБЛЕМ НА  3 РАЗНЫХ КОМПЬЮТЕРАХ.  Другие  забирали время    и нервы , а эта работает  сразу!!<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=199&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=810&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p811"></a>
+				<b class="postauthor">WAKQ814</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: Сборка &quot;Ubuntu 10.04 (Lucid Lynx)&quot;</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=811&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p811"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 05 июн 2012, 05:34&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 05 июн 2012, 04:57<br/><b>Сообщений:</b> 3<br/><b>Cпасибо сказано:</b> 5<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Ubuntu 10.04 lts,а все остальные  варианты нет,может в этом проблема ?<br/>  К сожалению сборки на основе Ubuntu я  бы советовал устанавливать  только второй,  не основной  системой, или вообще  на виртуалку.<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=199&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=811&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p1852"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: Ubuntu 10.04 (Lucid Lynx) by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=1852&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p1852"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 08 сен 2013, 21:10&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Уважаемые посетители! У кого есть возможность, прошу дать скачать сборку Ubuntu 10.04 (Lucid Lynx) by Lazarus. На трекере рейтинговая система.<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=1852&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p1853"></a>
+				<b class="postauthor">skt-maksim</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: Ubuntu 10.04 (Lucid Lynx) by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=1853&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p1853"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 09 сен 2013, 21:41&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 26 июн 2012, 10:33<br/><b>Сообщений:</b> 2<br/><b>Cпасибо сказано:</b> 0<br/><b>Спасибо получено:</b><br/> 1 раз в 1 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Сделано!<br/>Спасибо за Ваши труды!<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=205&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=1853&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+   <tr>
+      <td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+   </tr><tr class="row2">
+   <td valign="top" style="padding-left: 4px;"></td>
+      <td style="text-align: left;">За это сообщение пользователю <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=205&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">skt-maksim</a> "Спасибо" сказали:<br/> <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=d310331921a8b6cb7a1a4a6e465f322a" style="color: #AA0000;" class="username-coloured">Lazarus</a></td>
+   </tr>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3426"></a>
+				<b class="postauthor" style="color: #00AA00">Mantikora</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: Ubuntu 10.04 (Lucid Lynx) by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?p=3426&amp;sid=d310331921a8b6cb7a1a4a6e465f322a#p3426"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 07 апр 2022, 20:11&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_65.jpg?1640342033" width="72" height="91" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 24 сен 2011, 20:55<br/><b>Сообщений:</b> 110<br/><b>Cпасибо сказано:</b> 40<br/><b>Спасибо получено:</b><br/> 19 раз в 19 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Компания Canonical, разработчик Ubuntu — дистрибутива для Linux, объявила о прекращении технической поддержки российских компаний. <br/><br/>Для обычных россиян поддержка продолжится. А весь доход от подписок будет отправляться на гуманитарную помощь для Украины.<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=44&amp;p=3426&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/thanks.php?p=3426&amp;mode=thanks&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewtopic.php?f=44&amp;t=5&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><span class="gensmall">Показать сообщения за:</span> <select name="st"><option value="0" selected="selected">Все сообщения</option><option value="1">1 день</option><option value="7">7 дней</option><option value="14">2 недели</option><option value="30">1 месяц</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365">1 год</option></select>&nbsp;<span class="gensmall">Поле сортировки</span> <select name="sk"><option value="a">Автор</option><option value="t" selected="selected">Время размещения</option><option value="s">Заголовок</option></select> <select name="sd"><option value="a" selected="selected">по возрастанию</option><option value="d">по убыванию</option></select>&nbsp;<input class="btnlite" type="submit" value="Перейти" name="sort"/></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=44&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=44&amp;t=5&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>1</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 8 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all"/>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/portal.php?sid=d310331921a8b6cb7a1a4a6e465f322a">Портал</a> &#187; <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/index.php?sid=d310331921a8b6cb7a1a4a6e465f322a">Список форумов</a> &#187; <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewforum.php?f=44&amp;sid=d310331921a8b6cb7a1a4a6e465f322a">(X)Ubuntu Linux</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table><br/>
+<center>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<noindex><center>
+<div id="mix_block_1294937123"></div>
+<script>		
+document.write('<scr' + 'ipt language="javascript" type="text/javascript" src="https://web.archive.org/web/20260604192509/http://mixmarket.biz/uni/us/1294937123/?div=mix_block_1294937123&r=' + escape(document.referrer) + '&rnd=' + Math.round(Math.random() * 100000) + '" charset="windows-1251"><' + '/scr' + 'ipt>');
+</script></center></noindex>
+</td></tr></table>
+</center>	<br clear="all"/>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Кто сейчас на конференции</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Сейчас этот форум просматривают: нет зарегистрированных пользователей и гости: 2</p></td>
+	</tr>
+	</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Вы <strong>не можете</strong> начинать темы<br/>Вы <strong>не можете</strong> отвечать на сообщения<br/>Вы <strong>не можете</strong> редактировать свои сообщения<br/>Вы <strong>не можете</strong> удалять свои сообщения<br/>Вы <strong>не можете</strong> добавлять вложения<br/></span></td>
+</tr>
+</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/search.php?t=5&amp;sid=d310331921a8b6cb7a1a4a6e465f322a"><span class="gensmall">Найти:</span> <input class="post" type="text" name="keywords" size="20"/> <input class="btnlite" type="submit" value="Перейти"/></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="https://web.archive.org/web/20260604192509/http://lazarus.iboards.ru/viewforum.php?sid=d310331921a8b6cb7a1a4a6e465f322a" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Перейти:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Выберите форум</option>
+		<option value="-1">------------------</option>			<option value="24">Страница проекта на sourceforge.net</option>
+					<option value="37">Обсуждение операционных систем</option>
+					<option value="38">&nbsp; &nbsp;ALT Linux</option>
+					<option value="53">&nbsp; &nbsp;Arch Linux</option>
+					<option value="39">&nbsp; &nbsp;Debian GNU/Linux</option>
+					<option value="40">&nbsp; &nbsp;Fedora Linux</option>
+					<option value="61">&nbsp; &nbsp;Linux Mint Debian Edition</option>
+					<option value="41">&nbsp; &nbsp;Linux Mint Ubuntu Edition</option>
+					<option value="42">&nbsp; &nbsp;Mageia/Mandriva/ROSA Linux</option>
+					<option value="43">&nbsp; &nbsp;openSUSE</option>
+					<option value="54">&nbsp; &nbsp;Slackware</option>
+					<option value="44" selected="selected">&nbsp; &nbsp;(X)Ubuntu Linux</option>
+					<option value="63">&nbsp; &nbsp;Android</option>
+					<option value="51">&nbsp; &nbsp;Другие *NIX</option>
+					<option value="52">&nbsp; &nbsp;Вопросы, касающиеся всех дистрибутивов</option>
+					<option value="4">Общий раздел</option>
+					<option value="60">&nbsp; &nbsp;Духовная литература</option>
+					<option value="29">&nbsp; &nbsp;Поздравления</option>
+					<option value="27">&nbsp; &nbsp;Разговоры о серьезном</option>
+					<option value="62">&nbsp; &nbsp;Разное</option>
+					<option value="6">&nbsp; &nbsp;О форуме</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Перейти"/></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<img src="https://web.archive.org/web/20260604192509im_/http://lazarus.iboards.ru/cron.php?cron_type=tidy_sessions&amp;sid=d310331921a8b6cb7a1a4a6e465f322a" width="1" height="1" alt="cron"/></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="https://web.archive.org/web/20260604192509/http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br/>Вы можете <a href="https://web.archive.org/web/20260604192509/http://getbb.ru/">создать форум бесплатно</a> PHPBB3 на Getbb.Ru, Также возможно <a href="https://web.archive.org/web/20260604192509/http://mybb2.ru/">сделать готовый форум</a> PHPBB2 на Mybb2.ru <br/><a href="https://web.archive.org/web/20260604192509/http://www.phpbbguru.net/">Русская поддержка phpBB</a></span>
+</div>
+
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "https://web.archive.org/web/20260604192509/http://counter.yadro.ru/hit;getbb?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet--></body>
+</html><!--
+     FILE ARCHIVED ON 19:25:09 Jun 04, 2026 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:25:17 Jun 04, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 0.431
+  captures_list: 0.5
+  exclusion.robots: 0.05
+  exclusion.robots.policy: 0.042
+  esindex: 0.01
+  cdx.remote: 28.152
+  LoadShardBlock: 89.643 (3)
+  PetaboxLoader3.datanode: 72.49 (3)
+  load_resource: 7.783
+-->

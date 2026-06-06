@@ -1,0 +1,993 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-ru" xml:lang="ru-ru">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;sid=10eee8233f49f5298dabf837e6e2abbd","20240221123826","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1708519106");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-language" content="ru-ru"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="resource-type" content="document"/>
+<meta name="distribution" content="global"/>
+<meta name="copyright" content="2002-2006 phpBB Group"/>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<title>Lazarus project &bull; Просмотр темы - Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</title>
+
+<link rel="alternate" type="application/rss+xml" title="Lazarus project" href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/rss.php"/>
+<link rel="stylesheet" href="https://web.archive.org/web/20240221123826cs_/http://lazarus.iboards.ru/style.php?sid=867de3444c0c4f3e80e8446f8ec87d4a&amp;id=22&amp;lang=en" type="text/css"/>
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Введите номер страницы, на которую хотите перейти:', '1');
+	var perpage = '10';
+	var base_url = './viewtopic.php?f=61&amp;t=731&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+	/**
+	* Play quicktime file by determining it's width/height
+	* from the displayed rectangle area
+	*
+	* Only defined if there is a file block present.
+	*/
+	function play_qt_file(obj)
+	{
+		var rectangle = obj.GetRectangle();
+
+		if (rectangle)
+		{
+			rectangle = rectangle.split(',')
+			var x1 = parseInt(rectangle[0]);
+			var x2 = parseInt(rectangle[2]);
+			var y1 = parseInt(rectangle[1]);
+			var y2 = parseInt(rectangle[3]);
+
+			var width = (x1 < 0) ? (x1 * -1) + x2 : x2 - x1;
+			var height = (y1 < 0) ? (y1 * -1) + y2 : y2 - y1;
+		}
+		else
+		{
+			var width = 200;
+			var height = 0;
+		}
+
+		obj.width = width;
+		obj.height = height + 16;
+
+		obj.SetControllerVisible(true);
+
+		obj.Play();
+	}
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/index.php?sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/logo.png" alt="" title=""/></a></td>
+			<td width="100%" align="center"><p><h1 style="font-size: 30px; color: #660099">Lazarus project</h1></p><p><h1 style="font-size: 15px;"></h1></p></td>
+		</tr>
+		</table>
+	</div>
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/ucp.php?mode=login&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_login.gif" width="12" height="13" alt="*"/> Вход</a>&nbsp; &nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/ucp.php?mode=register&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_register.gif" width="12" height="13" alt="*"/> Регистрация</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/gallery/index.php?sid=867de3444c0c4f3e80e8446f8ec87d4a" title="Альбомы изображений"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_gallery.gif" width="12" height="13" alt="*"/> Альбомы</a>&nbsp; &nbsp;
+				<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/faq.php?sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*"/> FAQ</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/search.php?sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_search.gif" width="12" height="13" alt="*"/> Поиск</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Текущее время: 21 фев 2024, 15:38<br/></td>
+		</tr>
+		</table>
+	</div>
+</div>
+
+<div id="wrapcentre">
+	<p class="searchbar">
+		<span style="float: left;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/search.php?search_id=unanswered&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Сообщения без ответов</a> | <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/search.php?search_id=active_topics&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Активные темы</a></span>
+			</p>
+	
+	<br style="clear: both;"/>
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/portal.php?sid=867de3444c0c4f3e80e8446f8ec87d4a">Портал</a> &#187; <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/index.php?sid=867de3444c0c4f3e80e8446f8ec87d4a">Список форумов</a> &#187; <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewforum.php?f=61&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Linux Mint Debian Edition</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+	<br/>
+
+<div id="pageheader">
+	<h2><a class="titles" href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</a></h2>
+
+</div>
+
+<br clear="all"/><br/>
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=61&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=61&amp;t=731&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>2</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 13 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="jumpto(); return false;" title="Перейти на страницу…">На страницу</a> <strong>1</strong><span class="page-sep">, </span><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a&amp;start=10">2</a> &nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a&amp;start=10">След.</a></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a&amp;view=print" title="Для печати">Для печати</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;view=previous&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Пред. тема</a> | <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;view=next&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">След. тема</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Автор</th>
+			<th>Сообщение</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3204"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3204&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3204"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 16 окт 2019, 21:34&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 194 раз в 145 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><span style="font-size: 150%; line-height: normal">LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</span><br/><br/><img src="https://web.archive.org/web/20240221123826im_/http://funkyimg.com/i/2kpGB.jpg" alt="Изображение"/><br/><br/><span style="font-weight: bold">Название:</span> LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus<br/><span style="font-weight: bold">Версия:</span> 3 &quot;Cindy&quot; <br/><span style="font-weight: bold">Последняя версия программы:</span> 19.10.2019<br/><span style="font-weight: bold">Архитектура:</span> 32-bit, 64-bit<br/><span style="font-weight: bold">Тип дисков:</span> DVD<br/><br/><span style="font-weight: bold">Системные требования:</span><br/>- 1GB RAM (2GB рекомендуется для комфортного использования).<br/>- 15GB дискового пространства (20GB рекомендуется).<br/>- 1024×768 разрешение (на более низких разрешениях, зажмите ALT для перетаскивания окон с помощью мыши, если они не помещаются в экран).<br/>Примечание:<br/>64-bit ISO можно загрузить с BIOS или UEFI.<br/>32-bit ISO можно загрузить только с BIOS.<br/><br/><span style="font-weight: bold">Описание:</span><br/>Дистрибутив Linux Mint, является одним из самых популярных и простых для новичка, дистрибутивов. Он имеет огромное количество программ, входящих в базовую поставку мультимедиа кодеки, флеш плеер и многое другое. LMDE - это Linux Mint, основанный на пакетной базе Debian.<br/>Изначально, LMDE основывался на Debian Testing (тестовой ветке), и обновлялся по модели &quot;частичный скользящий релиз&quot; (semi-rolling release). Дистрибутив не очень подходил новичкам, так как имел некоторые проблемы со стабильностью и был ощутимо сложнее в использовании, нежели оригинальный Linux Mint.<br/>LMDE 3 довольно сильно отличается от классического LMDE. За основу был взят стабильный Debian 9 &quot;Stretch&quot;, а из тестовой ветки будут переноситься обновления ПО, графических окружений и т.д. Таким образом, пользователь будет иметь стабильную основу системы, и достаточно свежие версии софта. Помимо использования кодовой базы стабильного (а не тестового) Debian, отныне сюда будут в первую очередь попадать новые версии некоторого ПО, а потом уже в оригинальный Linux Mint (раньше было наоборот). Также система стала значительно быстрее, особенно в сравнении с обычным Linux Mint.<br/><br/><span style="font-weight: bold">Основные компоненты системы:</span><br/>* пакетная база - Debian 9 &quot;Stretch&quot;;<br/>* предустановленная раскладка клавиатуры - русская, английская;<br/>* графическая среда - MATE 1.16;<br/>* версия ядра - 4.9;<br/>* менеджер дисплеев - LightDM;<br/>* файловый менеджер - Caja;<br/>* архивный менеджер - Engrampa;<br/>* текстовый редактор - Pluma;<br/>* программа для просмотра изображений - Eom;<br/>* программа для считывания документов - Atril;<br/>* офисный пакет - Libreoffice;<br/>* браузер - Mozilla Firefox 60.2.0 ESR;<br/>* плеер - Vlc;<br/>* программа для записи дисков - Brasero;<br/>* дисковые утилиты - GParted, Disk-manager;<br/>* графический инструмент для настройки брандмауэра - Gufw.<br/><br/><span style="font-weight: bold">Особенности сборки:</span><br/>* Установлено окружение рабочего стола MATE;<br/>* Пакеты, установленные как зависимости, помечены как автоматически установленные, т.е. при удалении ненужного пакета можно отследить и удалить пакеты, установившиеся как его зависимости;<br/>* gksu настроен на использование пароля пользователя, до этого требовал пароль учетной записи root, которая в LMDE по-умолчанию заблокирована;<br/>* исправлены скрипты live-installer:<br/>- раскладка клавиатуры переключается по Alt+Shift;<br/>- при инсталляции системы не требуется обязательно форматировать корневой раздел;<br/>- Gparted не удаляется из системы после установки.<br/><br/><span style="font-weight: bold">Ссылки для скачивания:</span><br/><a href="https://web.archive.org/web/20240221123826/https://sourceforge.net/projects/lazarusproject/files/LinuxMint%20Debian%20MATE/lmde-3-mate-by-lazarus-32bit.iso/download" class="postlink" target="_blank">32-bit</a><br/><a href="https://web.archive.org/web/20240221123826/https://sourceforge.net/projects/lazarusproject/files/LinuxMint%20Debian%20MATE/lmde-3-mate-by-lazarus-64bit.iso/download" class="postlink" target="_blank">64-bit</a><br/><div class="attachtitle">Вложение:</div><div class="attachcontent">			<span class="genmed">
+				<img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_attach.gif" width="14" height="18" alt="" title=""/> 				<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/download/file.php?id=12&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">lmde-3-mate-by-lazarus.torrent</a> [30.58 Кб]
+			</span><br/>
+			<span class="gensmall">Скачиваний: 401</span>
+		
+		<br/>
+	</div><br/><br/><a href="https://web.archive.org/web/20240221123826/https://funkyimg.com/i/2XRzE.png" class="postlink" target="_blank"><img src="https://web.archive.org/web/20240221123826im_/https://funkyimg.com/p/2XRzE.png" alt="Изображение"/></a> <a href="https://web.archive.org/web/20240221123826/https://funkyimg.com/i/2XRzF.png" class="postlink" target="_blank"><img src="https://web.archive.org/web/20240221123826im_/https://funkyimg.com/p/2XRzF.png" alt="Изображение"/></a> <a href="https://web.archive.org/web/20240221123826/https://funkyimg.com/i/2XRzG.png" class="postlink" target="_blank"><img src="https://web.archive.org/web/20240221123826im_/https://funkyimg.com/p/2XRzG.png" alt="Изображение"/></a><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3204&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+   <tr>
+      <td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+   </tr><tr class="row2">
+   <td valign="top" style="padding-left: 4px;"></td>
+      <td style="text-align: left;">За это сообщение пользователю <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a" style="color: #AA0000;" class="username-coloured">Lazarus</a> "Спасибо" сказали:<br/> <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">colonel</a></td>
+   </tr>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3205"></a>
+				<b class="postauthor">colonel</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3205&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3205"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 17 окт 2019, 14:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 08 мар 2014, 17:48<br/><b>Сообщений:</b> 15<br/><b>Cпасибо сказано:</b> 2<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Скачал. Буду пробовать в виртуалке. О результатах сообщу.<!-- google_ad_section_end --></div>
+
+											<span class="postbody"><br/>_________________<br/>Оптимист изучает английский язык, пессимист -- китайский. А реалист изучает автомат Калашникова.</span>
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3205&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3207"></a>
+				<b class="postauthor">colonel</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3207&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3207"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 18 окт 2019, 21:02&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 08 мар 2014, 17:48<br/><b>Сообщений:</b> 15<br/><b>Cпасибо сказано:</b> 2<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->первый доклад.<br/><br/>При установке <span style="text-decoration:line-through;">долб</span> возня с efi. В виртуалке этого не была, а при установке на внешний диск и на основной было.<br/>по завершении установки, т. е. после перезагрузке, комп не выключался и не перезагружался. Выключен вручную.<br/><br/>Не с первой попытки (не видел grub), но запустился. Всё работает нормально как бы. Но! В синаптике нет таких элементарных пакетов, как claws, fbreader, tellico. <br/>Это то, что я с ходу попробовал. В live они были.<br/><br/>Отдаю себе отчёт, что это мои кривые руки, а не недостатки сборки.<br/>Можете что-то подсказать? В оправдание могу сказать, что я не имею отношения к IT, просто любитель (думаю, продвинутый) с 15-тилетним стажем. И ещё о личном - возраст (72 года), тороплюсь!  <img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/smilies/icon_e_smile.gif" alt=":)" title="Улыбается"/><!-- google_ad_section_end --></div>
+
+											<span class="postbody"><br/>_________________<br/>Оптимист изучает английский язык, пессимист -- китайский. А реалист изучает автомат Калашникова.</span>
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3207&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3208"></a>
+				<b class="postauthor">colonel</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3208&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3208"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 19 окт 2019, 13:52&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 08 мар 2014, 17:48<br/><b>Сообщений:</b> 15<br/><b>Cпасибо сказано:</b> 2<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Новости.<br/><br/>Всё устроилось, остался один вопрос. Инкскейп не дружит с Клавс-мейлом, при установке одного предлагает снести другое. А оба мне нужны.<br/><br/>И ещё. Как загрузить с BIOS а не UEFI? Я бы переустановился.<!-- google_ad_section_end --></div>
+
+											<span class="postbody"><br/>_________________<br/>Оптимист изучает английский язык, пессимист -- китайский. А реалист изучает автомат Калашникова.</span>
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3208&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3209"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3209&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3209"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 19 окт 2019, 21:54&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 194 раз в 145 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><div class="quotetitle">colonel писал(а):</div><div class="quotecontent">При установке <span style="text-decoration:line-through;">долб</span> возня с efi. В виртуалке этого не была, а при установке на внешний диск и на основной было.<br/>по завершении установки, т. е. после перезагрузке, комп не выключался и не перезагружался. Выключен вручную.<br/><br/>Не с первой попытки (не видел grub), но запустился.</div><br/>Подобные выкрутасы перешли из оригинального дистрибутива. Периодически встречается. Возможно, мы не дожидаемся окончания или не нажимаем в нужном месте кнопку Enter. <br/><br/><div class="quotetitle">colonel писал(а):</div><div class="quotecontent">В синаптике нет таких элементарных пакетов, как claws, fbreader, tellico. <br/>Это то, что я с ходу попробовал. В live они были.</div><br/>Возможно, некорректно обновился список пакетов. Установил в виртуалке - все есть.<br/><br/><div class="quotetitle">colonel писал(а):</div><div class="quotecontent">Всё устроилось, остался один вопрос. Инкскейп не дружит с Клавс-мейлом, при установке одного предлагает снести другое. А оба мне нужны.</div><br/>Возможно, после установки всех обновлений конфликтуют? На свежеустановленной системе все устанавливается нормально. Как вариант, попробуйте воспользоваться псевдографическим интерфейсом aptitude. Он более гибкий, чем synaptic, и помогает разрешать конфликты.<br/>/ - поиск<br/>+ - пометить для установки<br/>_ - пометить для удаления<br/>E - рассмотреть варианты разрешения конфликта<br/>, и . - предыдущий и следующий варианты разрешения конфликта<br/>g - применить запланированные (помеченные) изменения<br/>q - выход<br/><br/><div class="quotetitle">colonel писал(а):</div><div class="quotecontent">Как загрузить с BIOS а не UEFI? Я бы переустановился.</div><br/>Сначала попробуйте с флешки загрузиться с 32-битной сборкой. Если пойдет, можно будет перепаковать 64-битный iso-образ без поддержки UEFI.<br/><div style="border-top: 2px solid #B9CBDC; border-left: 2px solid #B9CBDC; border-right: 2px solid #B9CBDC; border-bottom: 1px solid #B9CBDC; font-size: 1em;"><div style="border-bottom: 1px solid #B9CBDC; background-color: #CADCEB; padding: 3px; font-size: 0.9em; font-weight: bold; display: block;"><span style="cursor: pointer;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') {  this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerHTML = '<b><a href=\'#\' onClick=\'return false;\'><img src=\'http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_minus_1.gif\' width=\'9\' height=\'9\' border=\'0\'></a> Попробуйте так</b>'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerHTML = '<b><a href=\'#\' onClick=\'return false;\'><img src=\'http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_plus_1.gif\' width=\'9\' height=\'9\' border=\'0\'></a> Попробуйте так</b>'; }"/><b><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="return false;"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/icon_plus_1.gif" alt="" width="9" height="9" border="0"></a>&nbsp;Попробуйте так</b></span></div><div><div style="display: none; border-bottom: 1px solid #B9CBDC; padding: 3px;">sudo su<br/>aptitude install genisoimage isolinux xorriso<br/>mkdir mnt<br/>mount -o loop *.iso mnt<br/>mkdir remaster<br/>rsync -at --del mnt/ remaster<br/>umount mnt<br/>rm -rf mnt<br/>cd remaster<br/>xorriso -hardlinks on -as mkisofs -r -J -joliet-long -l -V &quot;LMDE 3 Mate 64-bit&quot; -isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -c isolinux/boot.cat -b isolinux/isolinux.bin -no-emul-boot -boot-load-size 4 -boot-info-table -eltorito-alt-boot -no-emul-boot -isohybrid-gpt-basdat -o ../lmde-3-mate-by-lazarus-64bit-non-uefi.iso .</div></div></div><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3209&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+   <tr>
+      <td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+   </tr><tr class="row2">
+   <td valign="top" style="padding-left: 4px;"></td>
+      <td style="text-align: left;">За это сообщение пользователю <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a" style="color: #AA0000;" class="username-coloured">Lazarus</a> "Спасибо" сказали:<br/> <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a" style="color: #00AA00;" class="username-coloured">Mantikora</a></td>
+   </tr>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3210"></a>
+				<b class="postauthor">colonel</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3210&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3210"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 20 окт 2019, 11:37&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 08 мар 2014, 17:48<br/><b>Сообщений:</b> 15<br/><b>Cпасибо сказано:</b> 2<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->Простите профана, но это:<br/><br/>sudo su<br/>aptitude install genisoimage isolinux xorriso<br/>mkdir mnt ....... и т. д.<br/><br/>делать на когда? На каком этапе?<!-- google_ad_section_end --></div>
+
+											<span class="postbody"><br/>_________________<br/>Оптимист изучает английский язык, пессимист -- китайский. А реалист изучает автомат Калашникова.</span>
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3210&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3211"></a>
+				<b class="postauthor" style="color: #00AA00">Mantikora</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3211&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3211"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 20 окт 2019, 14:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_65.jpg?1640342033" width="72" height="91" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 24 сен 2011, 20:55<br/><b>Сообщений:</b> 106<br/><b>Cпасибо сказано:</b> 39<br/><b>Спасибо получено:</b><br/> 18 раз в 18 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start -->UEFI это не проблема. Это то, что присуще новым компьютерам. Мне лично помогла ROSA 64 bit, там установка автоматическая, рабочий стол можно выбрать на свой вкус. Извините, если не совсем по теме<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3211&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3212"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3212&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3212"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 20 окт 2019, 19:34&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 194 раз в 145 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><div class="quotetitle">colonel писал(а):</div><div class="quotecontent">sudo su<br/>aptitude install genisoimage isolinux xorriso<br/>mkdir mnt ....... и т. д.<br/><br/>делать на когда? На каком этапе?</div><br/>В папке с iso-образом. Можете создать отдельную папку, скопировать туда iso-образ, затем щелкнуть правой кнопкой мыши по свободному месту в папке и вызвать терминал. В нем уже выполняйте команды поочередно.<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3212&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3213"></a>
+				<b class="postauthor">colonel</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3213&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3213"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 21 окт 2019, 13:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 08 мар 2014, 17:48<br/><b>Сообщений:</b> 15<br/><b>Cпасибо сказано:</b> 2<br/><b>Спасибо получено:</b><br/> 0 раз в 0 сообщении				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><div class="quotetitle">Mantikora писал(а):</div><div class="quotecontent">UEFI это не проблема. Это то, что присуще новым компьютерам. Мне лично помогла ROSA 64 bit, там установка автоматическая, рабочий стол можно выбрать на свой вкус. Извините, если не совсем по теме</div><br/><br/>Извиняться не за что. Вы проявили внимание, что всегда приятно! <img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/smilies/icon_e_smile.gif" alt=":)" title="Улыбается"/><br/><br/><br/><span style="font-weight: bold">Lazarus</span>, знаете поговорку, что не делай добро, не получишь зло?<br/>Вот ещё цитата из BIOS (радел BOOT):<br/><br/>UEFI Boot:<br/>lmde<br/>linuxmint<br/>Windows Boot Manager<br/>Network Boot<br/><br/>Secure Boot                                            [Disabled]<br/>Load legacy Option Rom                          [Enabled]<br/>Boot list Option                                       [Enter]<br/>Delete Boot Option                                  [Enter]<br/><br/>Из этого что-то можно использовать?<!-- google_ad_section_end --></div>
+
+											<span class="postbody"><br/>_________________<br/>Оптимист изучает английский язык, пессимист -- китайский. А реалист изучает автомат Калашникова.</span>
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3213&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3214"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</div><div style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?p=3214&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a#p3214"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 21 окт 2019, 20:18&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 194 раз в 145 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><div class="quotetitle">colonel писал(а):</div><div class="quotecontent">Вот ещё цитата из BIOS (радел BOOT):<br/><br/>UEFI Boot:<br/>lmde<br/>linuxmint<br/>Windows Boot Manager<br/>Network Boot<br/><br/>Secure Boot                                            [Disabled]<br/>Load legacy Option Rom                          [Enabled]<br/>Boot list Option                                       [Enter]<br/>Delete Boot Option                                  [Enter]<br/><br/>Из этого что-то можно использовать?</div><br/>В UEFI ковыряться не приходилось, поэтому по приведенным Вами параметрам подсказать не могу. Вышеприведенный способ не подошел? Там все команды проверенные, по очереди копируете и вставляете в терминал и нажимаете Enter. Единственное, нужно дожидаться окончания выполнения одной команды перед вводом другой. Если хотите менее муторно, можно в папке с iso-образом ввести сначала эти две команды:<br/><span style="text-decoration: underline">sudo su</span> и нажать Enter, потом<br/><span style="text-decoration: underline">aptitude install genisoimage isolinux xorriso</span> (команда установит необходимые пакеты и вводится только в первый раз, если еще захотите переделывать сборку - в другой раз выполнять не нужно).<br/>Потом выделяете вот это все вместе с точкой на конце<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">mkdir mnt<br/>mount -o loop *.iso mnt<br/>mkdir remaster<br/>rsync -at --del mnt/ remaster<br/>umount mnt<br/>rm -rf mnt<br/>cd remaster<br/>xorriso -hardlinks on -as mkisofs -r -J -joliet-long -l -V &quot;LMDE 3 Mate 64-bit&quot; -isohybrid-mbr /usr/lib/ISOLINUX/isohdpfx.bin -c isolinux/boot.cat -b isolinux/isolinux.bin -no-emul-boot -boot-load-size 4 -boot-info-table -eltorito-alt-boot -no-emul-boot -isohybrid-gpt-basdat -o ../lmde-3-mate-by-lazarus-64bit-non-uefi.iso .</div><br/>копируете и вставляете в текстовый редактор, в редакторе после точки в конце жмете Enter, чтобы курсор перешел на следующую строку (образовался перенос). Потом весь этот код вместе с переносом выделяете, хватаете левой кнопкой мыши и перетаскиваете в терминал. И идете пить чай. Через некоторое время в папке должен появиться файл lmde-3-mate-by-lazarus-64bit-non-uefi.iso Исходный файл не затрется.<br/><br/>Мелкое пояснение, которое, скорее всего, Вам не понадобится: из-за того, что в коде прописано <span style="text-decoration: underline">mount -o loop *.iso mnt</span>, он будет работать только если в папке один iso-файл. Если будет более одного, команда не поймет, какой именно файл монтировать.<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/thanks.php?p=3214&amp;mode=thanks&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+   <tr>
+      <td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+   </tr><tr class="row2">
+   <td valign="top" style="padding-left: 4px;"></td>
+      <td style="text-align: left;">За это сообщение пользователю <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a" style="color: #AA0000;" class="username-coloured">Lazarus</a> "Спасибо" сказали:<br/> <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a" style="color: #00AA00;" class="username-coloured">Mantikora</a></td>
+   </tr>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><span class="gensmall">Показать сообщения за:</span> <select name="st"><option value="0" selected="selected">Все сообщения</option><option value="1">1 день</option><option value="7">7 дней</option><option value="14">2 недели</option><option value="30">1 месяц</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365">1 год</option></select>&nbsp;<span class="gensmall">Поле сортировки</span> <select name="sk"><option value="a">Автор</option><option value="t" selected="selected">Время размещения</option><option value="s">Заголовок</option></select> <select name="sd"><option value="a" selected="selected">по возрастанию</option><option value="d">по убыванию</option></select>&nbsp;<input class="btnlite" type="submit" value="Перейти" name="sort"/></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=61&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=61&amp;t=731&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>2</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 13 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="viewtopic.php@f=61&amp;t=731&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="jumpto(); return false;" title="Перейти на страницу…">На страницу</a> <strong>1</strong><span class="page-sep">, </span><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a&amp;start=10">2</a> &nbsp;<a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a&amp;start=10">След.</a></b></td>
+			</tr>
+	</table>
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all"/>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/portal.php?sid=867de3444c0c4f3e80e8446f8ec87d4a">Портал</a> &#187; <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/index.php?sid=867de3444c0c4f3e80e8446f8ec87d4a">Список форумов</a> &#187; <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewforum.php?f=61&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a">Linux Mint Debian Edition</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table><br/>
+<center>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<noindex><center>
+<div id="mix_block_1294937123"></div>
+<script>		
+document.write('<scr' + 'ipt language="javascript" type="text/javascript" src="https://web.archive.org/web/20240221123826/http://mixmarket.biz/uni/us/1294937123/?div=mix_block_1294937123&r=' + escape(document.referrer) + '&rnd=' + Math.round(Math.random() * 100000) + '" charset="windows-1251"><' + '/scr' + 'ipt>');
+</script></center></noindex>
+</td></tr></table>
+</center>	<br clear="all"/>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Кто сейчас на конференции</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Сейчас этот форум просматривают: нет зарегистрированных пользователей и гости: 1</p></td>
+	</tr>
+	</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Вы <strong>не можете</strong> начинать темы<br/>Вы <strong>не можете</strong> отвечать на сообщения<br/>Вы <strong>не можете</strong> редактировать свои сообщения<br/>Вы <strong>не можете</strong> удалять свои сообщения<br/>Вы <strong>не можете</strong> добавлять вложения<br/></span></td>
+</tr>
+</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/search.php?t=731&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a"><span class="gensmall">Найти:</span> <input class="post" type="text" name="keywords" size="20"/> <input class="btnlite" type="submit" value="Перейти"/></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="https://web.archive.org/web/20240221123826/http://lazarus.iboards.ru/viewforum.php?sid=867de3444c0c4f3e80e8446f8ec87d4a" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Перейти:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Выберите форум</option>
+		<option value="-1">------------------</option>			<option value="24">Страница проекта на sourceforge.net</option>
+					<option value="37">Обсуждение операционных систем</option>
+					<option value="38">&nbsp; &nbsp;ALT Linux</option>
+					<option value="53">&nbsp; &nbsp;Arch Linux</option>
+					<option value="39">&nbsp; &nbsp;Debian GNU/Linux</option>
+					<option value="40">&nbsp; &nbsp;Fedora Linux</option>
+					<option value="61" selected="selected">&nbsp; &nbsp;Linux Mint Debian Edition</option>
+					<option value="41">&nbsp; &nbsp;Linux Mint Ubuntu Edition</option>
+					<option value="42">&nbsp; &nbsp;Mageia/Mandriva/ROSA Linux</option>
+					<option value="43">&nbsp; &nbsp;openSUSE</option>
+					<option value="54">&nbsp; &nbsp;Slackware</option>
+					<option value="44">&nbsp; &nbsp;(X)Ubuntu Linux</option>
+					<option value="63">&nbsp; &nbsp;Android</option>
+					<option value="51">&nbsp; &nbsp;Другие *NIX</option>
+					<option value="52">&nbsp; &nbsp;Вопросы, касающиеся всех дистрибутивов</option>
+					<option value="4">Общий раздел</option>
+					<option value="60">&nbsp; &nbsp;Духовная литература</option>
+					<option value="29">&nbsp; &nbsp;Поздравления</option>
+					<option value="27">&nbsp; &nbsp;Разговоры о серьезном</option>
+					<option value="62">&nbsp; &nbsp;Разное</option>
+					<option value="6">&nbsp; &nbsp;О форуме</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Перейти"/></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<img src="https://web.archive.org/web/20240221123826im_/http://lazarus.iboards.ru/cron.php?cron_type=tidy_warnings&amp;sid=867de3444c0c4f3e80e8446f8ec87d4a" width="1" height="1" alt="cron"/></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="https://web.archive.org/web/20240221123826/http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br/>Вы можете <a href="https://web.archive.org/web/20240221123826/http://getbb.ru/">создать форум бесплатно</a> PHPBB3 на Getbb.Ru, Также возможно <a href="https://web.archive.org/web/20240221123826/http://mybb2.ru/">сделать готовый форум</a> PHPBB2 на Mybb2.ru <br/><a href="https://web.archive.org/web/20240221123826/http://www.phpbbguru.net/">Русская поддержка phpBB</a></span>
+</div>
+
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "https://web.archive.org/web/20240221123826/http://counter.yadro.ru/hit;getbb?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet--></body>
+</html><!--
+     FILE ARCHIVED ON 12:38:26 Feb 21, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:23:37 Jun 04, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 0.67
+  load_resource: 69.78
+  PetaboxLoader3.resolve: 31.028
+  PetaboxLoader3.datanode: 16.029
+-->

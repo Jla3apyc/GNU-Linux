@@ -1,0 +1,723 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-ru" xml:lang="ru-ru">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://lazarus.iboards.ru/viewtopic.php?f=51&amp;p=3432&amp;sid=802bd801e62af992127d41d8a0a79622","20260604192653","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1780601213");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-language" content="ru-ru"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="resource-type" content="document"/>
+<meta name="distribution" content="global"/>
+<meta name="copyright" content="2002-2006 phpBB Group"/>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<title>Lazarus project &bull; Просмотр темы - OpenWrt/LEDE</title>
+
+<link rel="alternate" type="application/rss+xml" title="Lazarus project" href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/rss.php"/>
+<link rel="stylesheet" href="https://web.archive.org/web/20260604192653cs_/http://lazarus.iboards.ru/style.php?sid=f4691d7ea7b11a0303746d58ec42dced&amp;id=22&amp;lang=en" type="text/css"/>
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Введите номер страницы, на которую хотите перейти:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/index.php?sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/logo.png" alt="" title=""/></a></td>
+			<td width="100%" align="center"><p><h1 style="font-size: 30px; color: #660099">Lazarus project</h1></p><p><h1 style="font-size: 15px;"></h1></p></td>
+		</tr>
+		</table>
+	</div>
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/ucp.php?mode=login&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_login.gif" width="12" height="13" alt="*"/> Вход</a>&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/ucp.php?mode=register&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_register.gif" width="12" height="13" alt="*"/> Регистрация</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/gallery/index.php?sid=f4691d7ea7b11a0303746d58ec42dced" title="Альбомы изображений"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_gallery.gif" width="12" height="13" alt="*"/> Альбомы</a>&nbsp; &nbsp;
+				<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/faq.php?sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*"/> FAQ</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/search.php?sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_search.gif" width="12" height="13" alt="*"/> Поиск</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Текущее время: 04 июн 2026, 22:26<br/></td>
+		</tr>
+		</table>
+	</div>
+</div>
+
+<div id="wrapcentre">
+	<p class="searchbar">
+		<span style="float: left;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/search.php?search_id=unanswered&amp;sid=f4691d7ea7b11a0303746d58ec42dced">Сообщения без ответов</a> | <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/search.php?search_id=active_topics&amp;sid=f4691d7ea7b11a0303746d58ec42dced">Активные темы</a></span>
+			</p>
+	
+	<br style="clear: both;"/>
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/portal.php?sid=f4691d7ea7b11a0303746d58ec42dced">Портал</a> &#187; <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/index.php?sid=f4691d7ea7b11a0303746d58ec42dced">Список форумов</a> &#187; <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=f4691d7ea7b11a0303746d58ec42dced">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewforum.php?f=51&amp;sid=f4691d7ea7b11a0303746d58ec42dced">Другие *NIX</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+	<br/>
+
+<div id="pageheader">
+	<h2><a class="titles" href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?f=51&amp;t=922&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=f4691d7ea7b11a0303746d58ec42dced">OpenWrt/LEDE</a></h2>
+
+</div>
+
+<br clear="all"/><br/>
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=51&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=51&amp;t=922&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>1</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 6 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?f=51&amp;t=922&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=f4691d7ea7b11a0303746d58ec42dced&amp;view=print" title="Для печати">Для печати</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?f=51&amp;t=922&amp;view=previous&amp;sid=f4691d7ea7b11a0303746d58ec42dced">Пред. тема</a> | <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?f=51&amp;t=922&amp;view=next&amp;sid=f4691d7ea7b11a0303746d58ec42dced">След. тема</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Автор</th>
+			<th>Сообщение</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3414"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> OpenWrt/LEDE</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?p=3414&amp;sid=f4691d7ea7b11a0303746d58ec42dced#p3414"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 12 июн 2021, 17:02&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><span style="font-size: 150%; line-height: normal"><span style="color: #8000FF">Создание прошивки OpenWrt/LEDE с помощью Image Generator (Image Builder)</span></span><br/><br/>Самый простой способ самому собрать прошивку OpenWrt с необходимыми вам пакетами - это воспользоваться Image Builder. Преимущества данного способа перед сборкой из исходников с помощью Buildroot:<br/><br/>1) Простота;<br/>2) Быстрая сборка в течение нескольких минут;<br/>3) Совместимость с модулями из репозитория.<br/><br/>Недостатки:<br/>1) Поскольку сборка идет не из исходников, последние изменения в коде не попадут в сборку.<br/><br/>Как и в случае сборки прошивки из исходных кодов, все манипуляции делаются на компьютере с linux (в нашем примере это будет Ubuntu).<br/><br/>Для начала установим все необходимое.<br/><br/>Открываем эмулятор терминала и выполняем команду<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">sudo apt-get install subversion build-essential libncurses5-dev zlib1g-dev gawk git ccache gettext libssl-dev xsltproc wget</div><br/><br/>Дальше я буду рассказывать на примере моего роутера NETGEAR WNDR4300 v.1.<br/><br/>1) На сайте <!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://openwrt.org/toh/hwdata/start">https://openwrt.org/toh/hwdata/start</a><!-- m --> ищем NETGEAR, потом находим свою модель, спускаемся в <span style="font-weight: bold">Dataentry</span> и запоминаем значения <span style="font-weight: bold">Target</span>: ar71xx-ath79 и <span style="font-weight: bold">Subtarget</span>: nand.<br/><br/>2) На сайте <!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://downloads.openwrt.org/">https://downloads.openwrt.org</a><!-- m --> выбираем нужную версию прошивки, например OpenWrt 19.07.7, далее выбираем по значениям <span style="font-weight: bold">Target</span> и <span style="font-weight: bold">Subtarget</span> из предыдущего пункта, в нашем случае это -&gt; ar71xx -&gt; nand. Убеждаемся, что в списке <span style="font-weight: bold">Image Files</span> есть наш роутер, после чего из <span style="font-weight: bold">Supplementary Files</span> скачиваем <span style="font-weight: bold">openwrt-imagebuilder-19.07.7-ar71xx-nand.Linux-x86_64.tar.xz</span> (в вашем случае после <span style="font-weight: bold">openwrt-imagebuilder-</span> окончание может быть другим). <br/><br/>3) Распаковываем архив в домашний каталог. В результате должен появиться каталог <span style="font-weight: bold">openwrt-imagebuilder-19.07.7-ar71xx-nand.Linux-x86_64</span>, в котором мы и будем производить дальнейшие действия.<br/><br/>Если у вас есть файлы настроек (например настройки сетевого подключения, transmission, samba, и т.п.) с уже установленной OpenWrt, их можно сразу внести в прошивку. Для этого создаем в <span style="font-weight: bold">openwrt-imagebuilder-19.07.7-ar71xx-nand.Linux-x86_64</span> каталог <span style="font-weight: bold">files</span> и копируем в нее наши настройки. Для своего роутера в <span style="font-weight: bold">$HOME/openwrt-imagebuilder-19.07.7-ar71xx-nand.Linux-x86_64/files/etc/config/</span> я скопировал файлы <span style="font-weight: bold">dhcp, system, wireless</span>.<br/><br/>4) Теперь можно приступать к сборке прошивки следующей командой<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make image PROFILE=WNDR4300V1 PACKAGES=&quot;luci luci-i18n-base-ru luci-i18n-firewall-ru luci-i18n-opkg-ru luci-i18n-p910nd-ru luci-i18n-samba4-ru luci-proto-3g luci-proto-relay kmod-nf-nathelper-extra kmod-usb-net-asix kmod-usb-net-cdc-ether kmod-usb-net-rndis kmod-usb-storage usb-modeswitch 6to4 wpad hostapd-utils xl2tpd ppp-mod-pptp block-mount -wpad-mini -wpad-basic -wpad-basic-wolfssl&quot; FILES=files/</div><br/><br/>где<br/><br/>PROFILE=WNDR4300V1 - роутер, для которого мы собираем прошивку.<br/><br/>Наименование профайлов смотрим командой<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make info</div><br/><br/>Ищем название, похожее на ваш роутер, и подставляем его в ключ PROFILE=<br/><br/>Дальше с помощью ключа PACKAGES= задаем пакеты, которые нужно убрать или добавить в прошивке.<br/><br/>В моем примере я добавил в прошивку пакеты: <span style="font-weight: bold">luci ... block-mount</span> и убрал <span style="font-weight: bold">wpad-mini</span> ... <span style="font-weight: bold">wpad-basic-wolfssl</span>. Чтобы убрать пакет, перед ним нужно поставить знак минус.<br/><br/>Ключ FILES=files/ задает месторасположение конфигурационных файлов, которые я скопировал выше. Данный ключ можно убрать, тогда конфигурационные файлы будут настроены по умолчанию.<br/><br/>Собранную прошивку смотрим в каталоге <span style="font-weight: bold">bin</span>.<br/><br/>Ссылки:<br/><!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://autohome.org.ua/12-openwrt/36-openwrt-imagebuilder">https://autohome.org.ua/12-openwrt/36-o ... agebuilder</a><!-- m --><br/><!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://oldwiki.archive.openwrt.org/doc/howto/obtain.firmware.generate">https://oldwiki.archive.openwrt.org/doc ... e.generate</a><!-- m --><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=51&amp;p=3432&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/thanks.php?p=3414&amp;mode=thanks&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+   <tr>
+      <td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+   </tr><tr class="row2">
+   <td valign="top" style="padding-left: 4px;"></td>
+      <td style="text-align: left;">За это сообщение пользователю <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced" style="color: #AA0000;" class="username-coloured">Lazarus</a> "Спасибо" сказали:<br/> <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=f4691d7ea7b11a0303746d58ec42dced" style="color: #00AA00;" class="username-coloured">Mantikora</a></td>
+   </tr>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3428"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: OpenWrt/LEDE</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?p=3428&amp;sid=f4691d7ea7b11a0303746d58ec42dced#p3428"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 04 май 2022, 21:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><span style="font-size: 150%; line-height: normal"><span style="color: #8000FF">Сборка OpenWrt/LEDE из исходных кодов</span></span><br/><br/>Все манипуляции делаются на компьютере с linux (в нашем примере будет для Debian/Ubuntu)<br/>Для начала установим все необходимое.<br/><br/>Открываем консоль и копируем туда команды<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">sudo apt-get install subversion git</div><br/><br/>Далее<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">sudo apt-get install g++ libncurses5-dev zlib1g-dev gawk libssl-dev unzip make</div><br/><br/>Готово.<br/><br/>Далее нужно скачать исходники прошивки<br/><br/>Скачиваем необходимую нам ветку (в данном примере это OpenWrt v19.07.0)<br/><br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">git clone https://github.com/openwrt/openwrt.git -b v19.07.0</div><br/><br/><br/>Далее, переходим в каталог с тем что у нас скачалось. ~/ (то есть home, он же домашний каталог) у нас создался каталог openwrt, нужно перейти в него для продолжения<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">cd ~/openwrt</div> <br/><br/>Теперь нужно выполнить<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">./scripts/feeds update -a</div><br/><br/>После завершения процесса обновления выполняем<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">./scripts/feeds install -a</div><br/><br/>Почти все готово, далее выполняем<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make prereq</div><br/><br/>Если все ок, то будет вот такое сообщение: <span style="font-weight: bold">Collecting package info: done</span><br/>Запуск интерфейса выбора компонентов прошивки (в последних версиях появляется автоматически после предыдущего шага)<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make menuconfig</div><br/><br/>Перемещение по пунктам осуществляется клавишами клавиатуры: вверх-вниз, пробел и esc.<br/>Выбираем <span style="font-weight: bold">Target System</span> по аналогии с предыдущим постом.<br/><br/><span style="font-weight: bold">Target Profile</span> можно выбрать для нужной модели, если оставить <span style="font-weight: bold">default profile</span>, тогда будет создано множество скомпилированных прошивок для всех устройств сразу из профиля Target System.<br/><br/>Отмечаем к установке &lt;*&gt; нужные пакеты, после чего сохраняем нашу конфигурацию кнопкой &lt;Save&gt;<br/><br/>Для сборки прошивки OpenWRT/LEDE нужны свои встроенные в исходный код инструменты компиляции. Как правило они собираются и устанавливаются один раз, после чего сборка прошивок с разными пакетами происходит гораздо быстрее. Вводим команду и ждем результата:<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make tools/install<br/>make toolchain/install</div><br/><br/>Приступаем к сборке. Для использования 4-х ядер процессора команда будет такой: (число ядер +1, т.е. -j5)<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make -j5 V=-1</div><br/><br/>Ждем, через полчаса-час находим свою прошивку в каталоге <span style="font-weight: bold">~/openwrt/bin</span><br/><br/>Если перед сборкой выбран правильный <span style="font-weight: bold">target</span>, но прошивка получается размером больше допустимого для размера флеш-памяти вашего роутера - файлы *sysupgrade.bin и *factory.bin не будут созданы.<br/><br/>Очистка<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make clean</div><br/><br/>Удаляет содержимое каталогов <span style="font-weight: bold">/bin</span> и <span style="font-weight: bold">/build_dir</span>.<br/><br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make dirclean</div><br/><br/>Удаляет содержимое каталогов <span style="font-weight: bold">/bin</span> и <span style="font-weight: bold">/build_dir</span>, а также дополнительно <span style="font-weight: bold">/staging_dir</span> и <span style="font-weight: bold">/toolchain</span> (инструментарий кросс-компиляции). <span style="font-weight: bold">Dirclean</span> - основная команда для полной очистки.<br/><br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">make distclean</div><br/><br/>Удаляет все что вы собрали или настроили, а также удаляет все загруженное из репозитория и исходные коды пакетов.<br/>ВНИМАНИЕ : Кроме всего прочего будет стерта ваша конфигурация сборки (.config), ваш набор инструментов (toolchain) и все прочие исходные коды. Используйте с осторожностью!<br/><br/>Адреса используемых репозиториев находится в файле <span style="font-weight: bold">feeds.conf.default</span><br/><br/>Ссылки:<br/><!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://4pda.to/forum/index.php?showtopic=821686">https://4pda.to/forum/index.php?showtopic=821686</a><!-- m --><br/><!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://openwrt.su/sborka/sborka-svoej-proshivki-lede-iz-iskhodnikov">https://openwrt.su/sborka/sborka-svoej- ... skhodnikov</a><!-- m --><br/><!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://openwrt.org/ru/doc/howto/build">https://openwrt.org/ru/doc/howto/build</a><!-- m --><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=51&amp;p=3432&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/thanks.php?p=3428&amp;mode=thanks&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3429"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: OpenWrt/LEDE</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?p=3429&amp;sid=f4691d7ea7b11a0303746d58ec42dced#p3429"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 04 май 2022, 22:04&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><span style="font-size: 150%; line-height: normal"><span style="color: #8000FF">О несовпадении хэша в версии ядра (vermagiс) при установке модулей ядра из репозитория в собственную сборку</span></span><br/><br/>Очень часто пользователи OpenWrt вырезают из сборки для своего устройства те пакеты, которые им не нужны, и наоборот включают требуемые. Но как быть, когда манипуляции произведены минимальные, а каждая попытка поставить какие-нибудь дополнительные пакеты из официального репозитария какой-нибудь стабильной ветки заканчивается возмущением менеджера пакетов opkg на несоответствие зависимостей ядра, несмотря на то, что версии ядра одинаковые? Тут то и придется прибегнуть к своеобразному хаку на свой страх и риск. <br/><br/>При каждой сборке OpenWrt, при минимальном изменении конфиг файлов в итоге меняется уникальный hash-код сборки. Он присваивается как в зависимости пакетов, так и к самому ядру OpenWrt. Например, при установке в самособранной OpenWRT 18.06.1 пакетов из официального репозитария несмотря на то, что версии ядра одинаковые, opkg будет ругаться что не может выполнить зависимости. И --force-depends тут не всегда помогает. Для тех, кто хочет чтобы все проходило гладко - есть один непопулярный способ ниже.<br/><br/>1. Узнаем hash-код ядра из официальной сборки вашей версии OpenWrt<br/>Открываем репозитарий нашей версии OpenWrt и нашей архитектуры. Например <!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://downloads.openwrt.org/releases/18.06.1/targets/ar71xx/generic/packages/">https://downloads.openwrt.org/releases/ ... /packages/</a><!-- m --> - это версия OpenWrt 18.06.1 и популярная архитектура ar71xx. Находим пакет kernel_4.9.120-1-adfb989aae12e239d65a2c73ca35b8a3_mips_24kc.ipk. 32 cимвола &quot;adfb989aae12e239d65a2c73ca35b8a3&quot; в его названии это есть md5 hash ядра официальной сборки. У вас соответственно он может быть иной. <br/><br/>2. Указываем md5 hash сборки принудительно для кросс-компилятора OpenWrt<br/>Открываем папку с исходниками OpenWRT, находим и открываем для редактирования файл openwrt/include/kernel-defaults.mk Находим примерно 102ю строку следующего содержания:<br/><br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">grep '=&#91;ym&#93;' $(LINUX_DIR)/.config.set | LC_ALL=C sort | mkhash md5 &gt; $(LINUX_DIR)/.vermagic</div> <br/><br/>И приводим ее к вижу <br/><br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">grep '=&#91;ym&#93;' $(LINUX_DIR)/.config.set | LC_ALL=C sort | echo &quot;нашхэшкодтут&quot; &gt; $(LINUX_DIR)/.vermagiс</div><br/><br/>Далее собираем сборку и пользуемся официальным репозитарием без лишних возмущений.<br/><br/>Источник:<br/><!-- m --><a class="postlink" href="https://web.archive.org/web/20260604192653/https://openwrt.su/sborka/maskirovka-svoej-sborki-openwrt-pod-ofitsialnyj-repozitarij">https://openwrt.su/sborka/maskirovka-sv ... epozitarij</a><!-- m --><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=51&amp;p=3432&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/thanks.php?p=3429&amp;mode=thanks&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3430"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: OpenWrt/LEDE</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?p=3430&amp;sid=f4691d7ea7b11a0303746d58ec42dced#p3430"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 04 май 2022, 22:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><a href="https://web.archive.org/web/20260604192653/https://openwrt.org/docs/guide-user/additional-software/saving_space" class="postlink" target="_blank">Что можно отключить/удалить в сборке OpenWrt</a><br/><br/>(n = disable, y = enable)	Menu path	Comments<br/><br/>CONFIG_KERNEL_SWAP=y/n<br/>Global build settings / Kernel build options / Support for paging of anonymous memory (swap)<br/><br/>CONFIG_KERNEL_PRINTK=n<br/>Global build settings / Kernel build options / Enable support for printk<br/><br/>CONFIG_KERNEL_CRASHLOG=n<br/>Global build settings / Kernel build options / Crash logging<br/><br/>CONFIG_KERNEL_KALLSYMS=n<br/>Global build settings / Kernel build options / Compile the kernel with symbol table information<br/><br/>CONFIG_KERNEL_DEBUG_INFO=n<br/>Global build settings / Kernel build options / Compile the kernel with debug information<br/><br/>CONFIG_KERNEL_ELF_CORE=n<br/>Global build settings / Kernel build options / Enable process core dump support<br/><br/>CONFIG_KERNEL_MAGIC_SYSRQ=n<br/>Global build settings / Kernel build options / Compile the kernel with SysRq support<br/><br/>CONFIG_KERNEL_PRINTK_TIME=n<br/>Global build settings / Kernel build options / Enable printk timestamps<br/><br/>CONFIG_PACKAGE_MAC80211_DEBUGFS=n<br/>Kernel modules / Wireless Drivers / kmod-mac80211 / Export mac80211 internals in DebugFS<br/><br/>CONFIG_PACKAGE_MAC80211_MESH=n<br/>Kernel modules / Wireless Drivers / kmod-mac80211 / Enable 802.11s mesh support<br/><br/>CONFIG_STRIP_KERNEL_EXPORTS=y<br/>Global build settings / Strip unnecessary exports from the kernel image<br/><br/>CONFIG_USE_MKLIBS=y<br/>Global build settings / Strip unnecessary functions from libraries<br/><br/>CONFIG_EARLY_PRINTK=n<br/>Kernel hacking / Early printk	This menu is available only via make kernel_menuconfig<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=51&amp;p=3432&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/thanks.php?p=3430&amp;mode=thanks&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3431"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: OpenWrt/LEDE</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?p=3431&amp;sid=f4691d7ea7b11a0303746d58ec42dced#p3431"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 06 май 2022, 21:01&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><a href="https://web.archive.org/web/20260604192653/https://asu.aparcar.org/" class="postlink" target="_blank">Сборка OpenWrt/LEDE онлайн</a><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=51&amp;p=3432&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/thanks.php?p=3431&amp;mode=thanks&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+   <tr>
+      <td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+   </tr><tr class="row2">
+   <td valign="top" style="padding-left: 4px;"></td>
+      <td style="text-align: left;">За это сообщение пользователю <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced" style="color: #AA0000;" class="username-coloured">Lazarus</a> "Спасибо" сказали:<br/> <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=f4691d7ea7b11a0303746d58ec42dced" style="color: #00AA00;" class="username-coloured">Mantikora</a></td>
+   </tr>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p3432"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Re: OpenWrt/LEDE</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?p=3432&amp;sid=f4691d7ea7b11a0303746d58ec42dced#p3432"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 13 май 2022, 12:15&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><a href="https://web.archive.org/web/20260604192653/https://vpnki.ru/questions/support-forum/tuns-routing/755-%D0%B2%D0%BE%D0%BF%D0%B8%D1%8E%D1%89%D0%B5-%D0%BD%D0%B8%D0%B7%D0%BA%D0%B0%D1%8F-%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D1%8C-%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-vpn-%D0%BC%D0%BE%D1%81%D1%82?start=195#6718" class="postlink" target="_blank">Настройка в OpenWrt соединения PPTP</a><br/><br/>1. Установить пакеты <span style="font-weight: bold">ppp-mod-pptp kmod-nf-nathelper-extra</span><br/>2. Включить CONNTRACK для iptables (PPtP PASSTHROUGH via OpenWRT router)<br/>- создать файл <span style="font-weight: bold">/etc/sysctl.d/local.conf</span><br/>- прописать туда одну строчку:<br/><div class="codetitle"><b>Код:</b></div><div class="codecontent">net.netfilter.nf_conntrack_helper = 1</div><!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="viewtopic.php@f=51&amp;p=3432&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/thanks.php?p=3432&amp;mode=thanks&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewtopic.php?f=51&amp;t=922&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><span class="gensmall">Показать сообщения за:</span> <select name="st"><option value="0" selected="selected">Все сообщения</option><option value="1">1 день</option><option value="7">7 дней</option><option value="14">2 недели</option><option value="30">1 месяц</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365">1 год</option></select>&nbsp;<span class="gensmall">Поле сортировки</span> <select name="sk"><option value="a">Автор</option><option value="t" selected="selected">Время размещения</option><option value="s">Заголовок</option></select> <select name="sd"><option value="a" selected="selected">по возрастанию</option><option value="d">по убыванию</option></select>&nbsp;<input class="btnlite" type="submit" value="Перейти" name="sort"/></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=51&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=51&amp;t=922&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>1</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ Сообщений: 6 ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all"/>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/portal.php?sid=f4691d7ea7b11a0303746d58ec42dced">Портал</a> &#187; <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/index.php?sid=f4691d7ea7b11a0303746d58ec42dced">Список форумов</a> &#187; <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=f4691d7ea7b11a0303746d58ec42dced">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewforum.php?f=51&amp;sid=f4691d7ea7b11a0303746d58ec42dced">Другие *NIX</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table><br/>
+<center>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+
+</td></tr></table>
+</center>	<br clear="all"/>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Кто сейчас на конференции</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Сейчас этот форум просматривают: нет зарегистрированных пользователей и гости: 2</p></td>
+	</tr>
+	</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Вы <strong>не можете</strong> начинать темы<br/>Вы <strong>не можете</strong> отвечать на сообщения<br/>Вы <strong>не можете</strong> редактировать свои сообщения<br/>Вы <strong>не можете</strong> удалять свои сообщения<br/>Вы <strong>не можете</strong> добавлять вложения<br/></span></td>
+</tr>
+</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/search.php?t=922&amp;sid=f4691d7ea7b11a0303746d58ec42dced"><span class="gensmall">Найти:</span> <input class="post" type="text" name="keywords" size="20"/> <input class="btnlite" type="submit" value="Перейти"/></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="https://web.archive.org/web/20260604192653/http://lazarus.iboards.ru/viewforum.php?sid=f4691d7ea7b11a0303746d58ec42dced" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Перейти:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Выберите форум</option>
+		<option value="-1">------------------</option>			<option value="24">Страница проекта на sourceforge.net</option>
+					<option value="37">Обсуждение операционных систем</option>
+					<option value="38">&nbsp; &nbsp;ALT Linux</option>
+					<option value="53">&nbsp; &nbsp;Arch Linux</option>
+					<option value="39">&nbsp; &nbsp;Debian GNU/Linux</option>
+					<option value="40">&nbsp; &nbsp;Fedora Linux</option>
+					<option value="61">&nbsp; &nbsp;Linux Mint Debian Edition</option>
+					<option value="41">&nbsp; &nbsp;Linux Mint Ubuntu Edition</option>
+					<option value="42">&nbsp; &nbsp;Mageia/Mandriva/ROSA Linux</option>
+					<option value="43">&nbsp; &nbsp;openSUSE</option>
+					<option value="54">&nbsp; &nbsp;Slackware</option>
+					<option value="44">&nbsp; &nbsp;(X)Ubuntu Linux</option>
+					<option value="63">&nbsp; &nbsp;Android</option>
+					<option value="51" selected="selected">&nbsp; &nbsp;Другие *NIX</option>
+					<option value="52">&nbsp; &nbsp;Вопросы, касающиеся всех дистрибутивов</option>
+					<option value="4">Общий раздел</option>
+					<option value="60">&nbsp; &nbsp;Духовная литература</option>
+					<option value="29">&nbsp; &nbsp;Поздравления</option>
+					<option value="27">&nbsp; &nbsp;Разговоры о серьезном</option>
+					<option value="62">&nbsp; &nbsp;Разное</option>
+					<option value="6">&nbsp; &nbsp;О форуме</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Перейти"/></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<img src="https://web.archive.org/web/20260604192653im_/http://lazarus.iboards.ru/cron.php?cron_type=tidy_sessions&amp;sid=f4691d7ea7b11a0303746d58ec42dced" width="1" height="1" alt="cron"/></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="https://web.archive.org/web/20260604192653/http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br/>Вы можете <a href="https://web.archive.org/web/20260604192653/http://getbb.ru/">создать форум бесплатно</a> PHPBB3 на Getbb.Ru, Также возможно <a href="https://web.archive.org/web/20260604192653/http://mybb2.ru/">сделать готовый форум</a> PHPBB2 на Mybb2.ru <br/><a href="https://web.archive.org/web/20260604192653/http://www.phpbbguru.net/">Русская поддержка phpBB</a></span>
+</div>
+
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "https://web.archive.org/web/20260604192653/http://counter.yadro.ru/hit;getbb?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet--></body>
+</html><!--
+     FILE ARCHIVED ON 19:26:53 Jun 04, 2026 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:26:58 Jun 04, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 1.849
+  captures_list: 0.553
+  exclusion.robots: 0.055
+  exclusion.robots.policy: 0.045
+  esindex: 0.009
+  cdx.remote: 7.324
+  LoadShardBlock: 73.491 (3)
+  PetaboxLoader3.datanode: 57.637 (3)
+  load_resource: 5.892
+-->

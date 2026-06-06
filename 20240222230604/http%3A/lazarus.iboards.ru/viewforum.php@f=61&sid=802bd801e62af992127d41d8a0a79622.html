@@ -1,0 +1,783 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-ru" xml:lang="ru-ru">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://lazarus.iboards.ru/viewforum.php?f=61&amp;sid=f010ee508e3decb57d720981e4b950e1","20240225073918","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1708846758");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-language" content="ru-ru"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="resource-type" content="document"/>
+<meta name="distribution" content="global"/>
+<meta name="copyright" content="2002-2006 phpBB Group"/>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<title>Lazarus project &bull; Просмотр форума - Linux Mint Debian Edition</title>
+
+<link rel="alternate" type="application/rss+xml" title="Lazarus project" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/rss.php"/>
+<link rel="stylesheet" href="https://web.archive.org/web/20240225073918cs_/http://lazarus.iboards.ru/style.php?sid=0077736e554ae39faa5111e131632074&amp;id=22&amp;lang=en" type="text/css"/>
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Введите номер страницы, на которую хотите перейти:', '1');
+	var perpage = '25';
+	var base_url = './viewforum.php?f=61&amp;st=0&amp;sk=t&amp;sd=d&amp;sid=0077736e554ae39faa5111e131632074';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/index.php?sid=0077736e554ae39faa5111e131632074"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/logo.png" alt="" title=""/></a></td>
+			<td width="100%" align="center"><p><h1 style="font-size: 30px; color: #660099">Lazarus project</h1></p><p><h1 style="font-size: 15px;"></h1></p></td>
+		</tr>
+		</table>
+	</div>
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/ucp.php?mode=login&amp;sid=0077736e554ae39faa5111e131632074"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_login.gif" width="12" height="13" alt="*"/> Вход</a>&nbsp; &nbsp;<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/ucp.php?mode=register&amp;sid=0077736e554ae39faa5111e131632074"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_register.gif" width="12" height="13" alt="*"/> Регистрация</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/gallery/index.php?sid=0077736e554ae39faa5111e131632074" title="Альбомы изображений"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_gallery.gif" width="12" height="13" alt="*"/> Альбомы</a>&nbsp; &nbsp;
+				<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/faq.php?sid=0077736e554ae39faa5111e131632074"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*"/> FAQ</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/search.php?sid=0077736e554ae39faa5111e131632074"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_search.gif" width="12" height="13" alt="*"/> Поиск</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Текущее время: 25 фев 2024, 10:39<br/></td>
+		</tr>
+		</table>
+	</div>
+</div>
+
+<div id="wrapcentre">
+	<p class="searchbar">
+		<span style="float: left;"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/search.php?search_id=unanswered&amp;sid=0077736e554ae39faa5111e131632074">Сообщения без ответов</a> | <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/search.php?search_id=active_topics&amp;sid=0077736e554ae39faa5111e131632074">Активные темы</a></span>
+			</p>
+	
+	<br style="clear: both;"/>
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/portal.php?sid=0077736e554ae39faa5111e131632074">Портал</a> &#187; <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/index.php?sid=0077736e554ae39faa5111e131632074">Список форумов</a> &#187; <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=0077736e554ae39faa5111e131632074">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;sid=0077736e554ae39faa5111e131632074">Linux Mint Debian Edition</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+	<br/>
+	<div id="pageheader">
+		<h2><a class="titles" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;st=0&amp;sk=t&amp;sd=d&amp;sid=0077736e554ae39faa5111e131632074">Linux Mint Debian Edition</a></h2>
+
+			</div>
+
+	<br clear="all"/><br/>
+
+<div id="pagecontent">
+
+		<table width="100%" cellspacing="1">
+		<tr>
+							<td align="left" valign="middle"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=61&amp;sid=0077736e554ae39faa5111e131632074"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a></td>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>2</strong><br/></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ Тем: 40 ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="viewforum.php@f=61&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="jumpto(); return false;" title="Перейти на страницу…">На страницу</a> <strong>1</strong><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;st=0&amp;sk=t&amp;sd=d&amp;sid=0077736e554ae39faa5111e131632074&amp;start=25">2</a> &nbsp;<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;st=0&amp;sk=t&amp;sd=d&amp;sid=0077736e554ae39faa5111e131632074&amp;start=25">След.</a></b></td>
+					</tr>
+		</table>
+			<table class="tablebg" width="100%" cellspacing="1">
+		<tr>
+			<td class="cat" colspan="6">
+				<table width="100%" cellspacing="0">
+				<tr class="nav">
+					<td valign="middle">&nbsp;</td>
+					<td align="right" valign="middle">&nbsp;</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+							<th colspan="2">&nbsp;Темы&nbsp;</th>
+						<th>&nbsp;Автор&nbsp;</th>
+			<th>&nbsp;Ответы&nbsp;</th>
+			<th>&nbsp;Просмотры&nbsp;</th>
+			<th>&nbsp;Последнее сообщение&nbsp;</th>
+		</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										<img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_attach.gif" width="14" height="18" alt="Вложения" title="Вложения"/> <a title="Добавлено: 22 сен 2019, 14:25" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Re: LMDE 3 &quot;Cindy&quot; MATE Edition by Lazarus</a>
+											<p class="gensmall"> [ <img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="На страницу" title="На страницу"/>На страницу: <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;sid=0077736e554ae39faa5111e131632074">1</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;sid=0077736e554ae39faa5111e131632074&amp;start=10">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">12</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1709</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">28 ноя 2019, 21:01</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=731&amp;sid=0077736e554ae39faa5111e131632074&amp;p=3251#p3251"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										<img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_attach.gif" width="14" height="18" alt="Вложения" title="Вложения"/> <a title="Добавлено: 03 сен 2018, 21:53" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=599&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">LMDE 3 &quot;Cindy&quot; XFCE Edition by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">8</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1559</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">19 ноя 2019, 12:59</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=695&amp;sid=0077736e554ae39faa5111e131632074">kurdukat</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=599&amp;sid=0077736e554ae39faa5111e131632074&amp;p=3239#p3239"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										<img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_attach.gif" width="14" height="18" alt="Вложения" title="Вложения"/> <a title="Добавлено: 02 окт 2018, 21:13" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=602&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">LMDE 3 &quot;Cindy&quot; KDE Edition by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">996</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">24 окт 2018, 21:02</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=602&amp;sid=0077736e554ae39faa5111e131632074&amp;p=3045#p3045"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 02 дек 2016, 22:23" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=575&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition 2 (XFCE) by Lazarus</a>
+											<p class="gensmall"> [ <img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="На страницу" title="На страницу"/>На страницу: <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=575&amp;sid=0077736e554ae39faa5111e131632074">1</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=575&amp;sid=0077736e554ae39faa5111e131632074&amp;start=10">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">18</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">3071</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">18 дек 2017, 12:08</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=307&amp;sid=0077736e554ae39faa5111e131632074">Sedoy07</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=575&amp;sid=0077736e554ae39faa5111e131632074&amp;p=3029#p3029"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 24 дек 2016, 10:27" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=580&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition 2 (Cinnamon) by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">7</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1546</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">23 фев 2017, 17:41</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=0077736e554ae39faa5111e131632074" style="color: #00AA00;" class="username-coloured">Mantikora</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=580&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2856#p2856"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 24 дек 2016, 10:21" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=579&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition 2 (MATE) by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">6</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1228</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">04 фев 2017, 13:54</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=340&amp;sid=0077736e554ae39faa5111e131632074">Pilat</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=579&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2849#p2849"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 07 янв 2017, 23:26" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=581&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition 2 (KDE) by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">779</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">17 янв 2017, 11:43</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=0077736e554ae39faa5111e131632074">colonel</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=581&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2846#p2846"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 31 мар 2013, 11:15" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=176&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (MATE) UP6 by Lazarus</a>
+											<p class="gensmall"> [ <img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="На страницу" title="На страницу"/>На страницу: <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=176&amp;sid=0077736e554ae39faa5111e131632074">1</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=176&amp;sid=0077736e554ae39faa5111e131632074&amp;start=10">2</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=176&amp;sid=0077736e554ae39faa5111e131632074&amp;start=20">3</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=176&amp;sid=0077736e554ae39faa5111e131632074&amp;start=30">4</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=176&amp;sid=0077736e554ae39faa5111e131632074&amp;start=40">5</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">47</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">11228</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">29 апр 2015, 02:42</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=402&amp;sid=0077736e554ae39faa5111e131632074">Saidmax</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=176&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2759#p2759"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 06 апр 2013, 10:45" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=179&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (KDE) UP6 by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">3037</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">11 мар 2014, 14:35</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=179&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2241#p2241"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 23 мар 2013, 19:44" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=173&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (Cinnamon) UP6 by Lazarus</a>
+											<p class="gensmall"> [ <img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="На страницу" title="На страницу"/>На страницу: <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=173&amp;sid=0077736e554ae39faa5111e131632074">1</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=173&amp;sid=0077736e554ae39faa5111e131632074&amp;start=10">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">11</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">4459</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">27 янв 2014, 16:39</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=173&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2133#p2133"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 04 апр 2013, 09:45" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=177&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (XFCE) UP6 by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">5</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2869</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">16 ноя 2013, 23:34</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=354&amp;sid=0077736e554ae39faa5111e131632074">Aristarh</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=177&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1964#p1964"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 21 янв 2012, 22:15" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=242&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">999</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">22 мар 2013, 20:26</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=242&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1198#p1198"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 28 июн 2012, 18:03" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=78&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (GNOME-Shell) UP4 by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">3</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">2225</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">26 окт 2012, 21:06</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=84&amp;sid=0077736e554ae39faa5111e131632074">Николай</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=78&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1027#p1027"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 10 мар 2012, 09:37" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=66&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (Cinnamon) UP4 by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">7</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">9447</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">11 апр 2012, 15:15</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=121&amp;sid=0077736e554ae39faa5111e131632074">Vlad</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=66&amp;sid=0077736e554ae39faa5111e131632074&amp;p=665#p665"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 23 янв 2012, 17:18" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=60&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (XFCE) UP4 by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">8742</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">23 янв 2012, 17:18</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=60&amp;sid=0077736e554ae39faa5111e131632074&amp;p=466#p466"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 21 янв 2012, 11:03" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=59&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Linux Mint Debian Edition (GNOME2) by Lazarus</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">5519</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">21 янв 2012, 11:03</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=59&amp;sid=0077736e554ae39faa5111e131632074&amp;p=437#p437"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 21 дек 2016, 21:09" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=576&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Менеджер питания XFCE при критическом разряде в LMDE 2</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">0</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">384</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">21 дек 2016, 21:09</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=576&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2829#p2829"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 27 окт 2015, 20:12" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=527&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">wine в lmde2</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=0077736e554ae39faa5111e131632074">colonel</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">640</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">06 янв 2016, 15:03</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=370&amp;sid=0077736e554ae39faa5111e131632074">colonel</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=527&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2811#p2811"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 10 дек 2013, 17:47" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=282&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Нет звука в wine на LMDE.</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=279&amp;sid=0077736e554ae39faa5111e131632074">DocPainkiller</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">766</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">14 дек 2013, 21:02</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=282&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2022#p2022"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 13 авг 2013, 21:26" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=269&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Mateconf-editor: &quot;Этот ключ защищен от записи&quot;</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=171&amp;sid=0077736e554ae39faa5111e131632074">filmak</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">9</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1149</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">09 дек 2013, 20:40</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=269&amp;sid=0077736e554ae39faa5111e131632074&amp;p=2017#p2017"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 16 окт 2012, 00:39" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=245&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Какой дистрибутив установить на старый компьютер?</a>
+											<p class="gensmall"> [ <img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="На страницу" title="На страницу"/>На страницу: <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=245&amp;sid=0077736e554ae39faa5111e131632074">1</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=245&amp;sid=0077736e554ae39faa5111e131632074&amp;start=10">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=242&amp;sid=0077736e554ae39faa5111e131632074">mnogo999</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">12</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1820</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">09 ноя 2013, 23:09</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=199&amp;sid=0077736e554ae39faa5111e131632074">WAKQ814</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=245&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1957#p1957"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 07 окт 2012, 13:39" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=227&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Разница во времени в Linux Mint Debian и Windows</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">4</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1134</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">16 окт 2013, 09:03</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=171&amp;sid=0077736e554ae39faa5111e131632074">filmak</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=227&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1906#p1906"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 04 сен 2013, 21:52" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=273&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Драйвер wi-fi на ACER 5220</a>
+											<p class="gensmall"> [ <img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="На страницу" title="На страницу"/>На страницу: <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=273&amp;sid=0077736e554ae39faa5111e131632074">1</a><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=273&amp;sid=0077736e554ae39faa5111e131632074&amp;start=10">2</a> ] </p>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=105&amp;sid=0077736e554ae39faa5111e131632074">Krager</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">12</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">1339</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">27 сен 2013, 19:48</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=273&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1890#p1890"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 09 авг 2013, 16:13" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=265&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Не работает запуск wine-приложений с mintmenu</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=331&amp;sid=0077736e554ae39faa5111e131632074">sanyokgr</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">2</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">715</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">10 авг 2013, 19:30</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=331&amp;sid=0077736e554ae39faa5111e131632074">sanyokgr</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=265&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1754#p1754"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+			<tr>
+				<td class="row1" width="25" align="center"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+								<td class="row1">
+										 <a title="Добавлено: 19 июл 2013, 11:16" href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=262&amp;sid=0077736e554ae39faa5111e131632074" class="topictitle">Cinnamon и русская раскладка клавиатуры</a>
+									</td>
+				<td class="row2" width="130" align="center"><p class="topicauthor"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=56&amp;sid=0077736e554ae39faa5111e131632074">camac</a></p></td>
+				<td class="row1" width="50" align="center"><p class="topicdetails">1</p></td>
+				<td class="row2" width="50" align="center"><p class="topicdetails">828</p></td>
+				<td class="row1" width="140" align="center">
+					<p class="topicdetails" style="white-space: nowrap;">20 июл 2013, 16:33</p>
+					<p class="topicdetails"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=0077736e554ae39faa5111e131632074" style="color: #AA0000;" class="username-coloured">Lazarus</a>						<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewtopic.php?f=61&amp;t=262&amp;sid=0077736e554ae39faa5111e131632074&amp;p=1694#p1694"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_topic_latest.gif" width="18" height="9" alt="Перейти к последнему сообщению" title="Перейти к последнему сообщению"/></a>
+					</p>
+				</td>
+			</tr>
+
+		
+		<tr align="center">
+							<td class="cat" colspan="6">
+								<form method="post" action="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;sid=0077736e554ae39faa5111e131632074"><span class="gensmall">Показать темы за:</span>&nbsp;<select name="st"><option value="0" selected="selected">Все темы</option><option value="1">1 день</option><option value="7">7 дней</option><option value="14">2 недели</option><option value="30">1 месяц</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365">1 год</option></select>&nbsp;<span class="gensmall">Поле сортировки</span> <select name="sk"><option value="a">Автор</option><option value="t" selected="selected">Время размещения</option><option value="r">Ответы</option><option value="s">Заголовок</option><option value="v">Просмотры</option></select> <select name="sd"><option value="a">по возрастанию</option><option value="d" selected="selected">по убыванию</option></select>&nbsp;<input class="btnlite" type="submit" name="sort" value="Перейти"/></form>
+				</td>
+		</tr>
+		</table>
+			<table width="100%" cellspacing="1">
+		<tr>
+							<td align="left" valign="middle"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=61&amp;sid=0077736e554ae39faa5111e131632074"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a></td>
+							<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>2</strong><br/></td>
+				<td class="gensmall" nowrap="nowrap">&nbsp;[ Тем: 40 ]&nbsp;</td>
+				<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="viewforum.php@f=61&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="jumpto(); return false;" title="Перейти на страницу…">На страницу</a> <strong>1</strong><span class="page-sep">, </span><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;st=0&amp;sk=t&amp;sd=d&amp;sid=0077736e554ae39faa5111e131632074&amp;start=25">2</a> &nbsp;<a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;st=0&amp;sk=t&amp;sd=d&amp;sid=0077736e554ae39faa5111e131632074&amp;start=25">След.</a></b></td>
+					</tr>
+		</table>
+	
+		<br clear="all"/>
+</div>
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/portal.php?sid=0077736e554ae39faa5111e131632074">Портал</a> &#187; <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/index.php?sid=0077736e554ae39faa5111e131632074">Список форумов</a> &#187; <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=0077736e554ae39faa5111e131632074">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?f=61&amp;sid=0077736e554ae39faa5111e131632074">Linux Mint Debian Edition</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table><br/>
+<center>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-3870915087688395";
+google_analytics_domain="lazarus.iboards.ru";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_channel = "1564794664";
+google_ui_features = "rc:10";
+google_ad_type = "text_image";
+//google_ad_type = "image";
+google_color_bg = "F8F8F8";
+google_color_border = "F8F8F8";
+google_color_link = "2E5B82";
+google_color_url = "909090";
+google_alternate_ad_url = "https://web.archive.org/web/20240225073918/http://getbb.ru/srv/alt1.html";
+google_color_text = "909090";
+
+//-->
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20240225073918js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+</td></tr></table>
+</center>	<br clear="all"/>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Кто сейчас на конференции</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Сейчас этот форум просматривают: нет зарегистрированных пользователей и гости: 1</p></td>
+	</tr>
+	</table>
+	<br clear="all"/>
+
+	<table width="100%" cellspacing="0">
+	<tr>
+		<td align="left" valign="top">
+			<table cellspacing="3" cellpadding="0" border="0">
+			<tr>
+				<td width="20" style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_unread.gif" width="19" height="18" alt="Новые сообщения" title="Новые сообщения"/></td>
+				<td class="gensmall">Новые сообщения</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read.gif" width="19" height="18" alt="Нет новых сообщений" title="Нет новых сообщений"/></td>
+				<td class="gensmall">Нет новых сообщений</td>
+				<td>&nbsp;&nbsp;</td>
+				<td width="20" style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/announce_read.gif" width="19" height="18" alt="Объявление" title="Объявление"/></td>
+				<td class="gensmall">Объявление</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_unread_hot.gif" width="19" height="18" alt="Новые сообщения [ Популярная тема ]" title="Новые сообщения [ Популярная тема ]"/></td>
+				<td class="gensmall">Новые сообщения [ Популярная тема ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read_hot.gif" width="19" height="18" alt="Нет новых сообщений [ Популярная тема ]" title="Нет новых сообщений [ Популярная тема ]"/></td>
+				<td class="gensmall">Нет новых сообщений [ Популярная тема ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/sticky_read.gif" width="19" height="18" alt="Прикреплённая" title="Прикреплённая"/></td>
+				<td class="gensmall">Прилепленная</td>			
+			</tr>
+			<tr>
+				<td style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_unread_locked.gif" width="19" height="18" alt="Новые сообщения [ Тема закрыта ]" title="Новые сообщения [ Тема закрыта ]"/></td>
+				<td class="gensmall">Новые сообщения [ Тема закрыта ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_read_locked.gif" width="19" height="18" alt="Нет новых сообщений [ Тема закрыта ]" title="Нет новых сообщений [ Тема закрыта ]"/></td>
+				<td class="gensmall">Нет новых сообщений [ Тема закрыта ]</td>
+				<td>&nbsp;&nbsp;</td>
+				<td style="text-align: center;"><img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/topic_moved.gif" width="19" height="18" alt="Перенесённая" title="Перенесённая"/></td>
+				<td class="gensmall">Перенесённая</td>
+			</tr>
+			</table>
+		</td>
+		<td align="right"><span class="gensmall">Вы <strong>не можете</strong> начинать темы<br/>Вы <strong>не можете</strong> отвечать на сообщения<br/>Вы <strong>не можете</strong> редактировать свои сообщения<br/>Вы <strong>не можете</strong> удалять свои сообщения<br/>Вы <strong>не можете</strong> добавлять вложения<br/></span></td>
+	</tr>
+	</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/search.php?fid[]=61&amp;sid=0077736e554ae39faa5111e131632074"><span class="gensmall">Найти:</span> <input class="post" type="text" name="keywords" size="20"/> <input class="btnlite" type="submit" value="Перейти"/></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="https://web.archive.org/web/20240225073918/http://lazarus.iboards.ru/viewforum.php?sid=0077736e554ae39faa5111e131632074" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Перейти:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Выберите форум</option>
+		<option value="-1">------------------</option>			<option value="24">Страница проекта на sourceforge.net</option>
+					<option value="37">Обсуждение операционных систем</option>
+					<option value="38">&nbsp; &nbsp;ALT Linux</option>
+					<option value="53">&nbsp; &nbsp;Arch Linux</option>
+					<option value="39">&nbsp; &nbsp;Debian GNU/Linux</option>
+					<option value="40">&nbsp; &nbsp;Fedora Linux</option>
+					<option value="61" selected="selected">&nbsp; &nbsp;Linux Mint Debian Edition</option>
+					<option value="41">&nbsp; &nbsp;Linux Mint Ubuntu Edition</option>
+					<option value="42">&nbsp; &nbsp;Mageia/Mandriva/ROSA Linux</option>
+					<option value="43">&nbsp; &nbsp;openSUSE</option>
+					<option value="54">&nbsp; &nbsp;Slackware</option>
+					<option value="44">&nbsp; &nbsp;(X)Ubuntu Linux</option>
+					<option value="63">&nbsp; &nbsp;Android</option>
+					<option value="51">&nbsp; &nbsp;Другие *NIX</option>
+					<option value="52">&nbsp; &nbsp;Вопросы, касающиеся всех дистрибутивов</option>
+					<option value="4">Общий раздел</option>
+					<option value="60">&nbsp; &nbsp;Духовная литература</option>
+					<option value="29">&nbsp; &nbsp;Поздравления</option>
+					<option value="27">&nbsp; &nbsp;Разговоры о серьезном</option>
+					<option value="62">&nbsp; &nbsp;Разное</option>
+					<option value="6">&nbsp; &nbsp;О форуме</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Перейти"/></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<img src="https://web.archive.org/web/20240225073918im_/http://lazarus.iboards.ru/cron.php?cron_type=tidy_warnings&amp;sid=0077736e554ae39faa5111e131632074" width="1" height="1" alt="cron"/></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="https://web.archive.org/web/20240225073918/http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br/>Вы можете <a href="https://web.archive.org/web/20240225073918/http://getbb.ru/">создать форум бесплатно</a> PHPBB3 на Getbb.Ru, Также возможно <a href="https://web.archive.org/web/20240225073918/http://mybb2.ru/">сделать готовый форум</a> PHPBB2 на Mybb2.ru <br/><a href="https://web.archive.org/web/20240225073918/http://www.phpbbguru.net/">Русская поддержка phpBB</a></span>
+</div>
+
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "https://web.archive.org/web/20240225073918/http://counter.yadro.ru/hit;getbb?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet--></body>
+</html><!--
+     FILE ARCHIVED ON 07:39:18 Feb 25, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:23:30 Jun 04, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 2.945
+  load_resource: 264.338
+  PetaboxLoader3.resolve: 164.573
+  PetaboxLoader3.datanode: 61.668
+-->

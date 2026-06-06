@@ -1,0 +1,616 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-ru" xml:lang="ru-ru">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://lazarus.iboards.ru/search.php?author_id=193&amp;sr=posts&amp;sid=802bd801e62af992127d41d8a0a79622","20260604191410","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1780600450");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-language" content="ru-ru"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="resource-type" content="document"/>
+<meta name="distribution" content="global"/>
+<meta name="copyright" content="2002-2006 phpBB Group"/>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<title>Lazarus project &bull; Поиск</title>
+
+<link rel="alternate" type="application/rss+xml" title="Lazarus project" href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/rss.php"/>
+<link rel="stylesheet" href="https://web.archive.org/web/20260604191410cs_/http://lazarus.iboards.ru/style.php?sid=71bd37537e5b082049906282748039b4&amp;id=22&amp;lang=en" type="text/css"/>
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Введите номер страницы, на которую хотите перейти:', '1');
+	var perpage = '10';
+	var base_url = './search.php?st=0&amp;sk=t&amp;sd=d&amp;sid=71bd37537e5b082049906282748039b4&amp;author_id=193';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/index.php?sid=71bd37537e5b082049906282748039b4"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/logo.png" alt="" title=""/></a></td>
+			<td width="100%" align="center"><p><h1 style="font-size: 30px; color: #660099">Lazarus project</h1></p><p><h1 style="font-size: 15px;"></h1></p></td>
+		</tr>
+		</table>
+	</div>
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/ucp.php?mode=login&amp;sid=71bd37537e5b082049906282748039b4"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_login.gif" width="12" height="13" alt="*"/> Вход</a>&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/ucp.php?mode=register&amp;sid=71bd37537e5b082049906282748039b4"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_register.gif" width="12" height="13" alt="*"/> Регистрация</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/gallery/index.php?sid=71bd37537e5b082049906282748039b4" title="Альбомы изображений"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_gallery.gif" width="12" height="13" alt="*"/> Альбомы</a>&nbsp; &nbsp;
+				<a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/faq.php?sid=71bd37537e5b082049906282748039b4"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*"/> FAQ</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/search.php?sid=71bd37537e5b082049906282748039b4"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_search.gif" width="12" height="13" alt="*"/> Поиск</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Текущее время: 04 июн 2026, 22:14<br/></td>
+		</tr>
+		</table>
+	</div>
+</div>
+
+<div id="wrapcentre">
+	<p class="searchbar">
+		<span style="float: left;"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/search.php?search_id=unanswered&amp;sid=71bd37537e5b082049906282748039b4">Сообщения без ответов</a> | <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/search.php?search_id=active_topics&amp;sid=71bd37537e5b082049906282748039b4">Активные темы</a></span>
+			</p>
+	
+	<br style="clear: both;"/>
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/portal.php?sid=71bd37537e5b082049906282748039b4">Портал</a> &#187; <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/index.php?sid=71bd37537e5b082049906282748039b4">Список форумов</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+	<br/>
+
+<form method="post" action="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/search.php?st=0&amp;sk=t&amp;sd=d&amp;sid=71bd37537e5b082049906282748039b4&amp;author_id=193">
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td colspan="2"><span class="titles">Результатов поиска: 20</span><br/></td>
+</tr>
+<tr>
+	<td class="genmed"></td>
+	<td align="right"><span class="genmed">Поиск в найденном: </span><input type="text" name="add_keywords" value=""/> <input class="btnlite" type="submit" name="submit" value="Перейти"/></td>
+</tr>
+</table>
+
+<br clear="all"/>
+
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<th width="150" nowrap="nowrap">Автор</th>
+		<th width="100%" nowrap="nowrap">Сообщение</th>
+	</tr>
+
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1960" id="p1960"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1960&amp;sid=71bd37537e5b082049906282748039b4#p1960">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 11 ноя 2013, 21:48&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Ставил volti, alsamixer - не помогают, а smplayer выдает нужный звук...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1958" id="p1958"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1958&amp;sid=71bd37537e5b082049906282748039b4#p1958">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 10 ноя 2013, 18:50&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody"> копать в сторону /etc/modprobe.d/alsa.conf. Нашел в сети совет по корректировке этого файла именно на моем железе, но не работает, а совет касался 10.04... Думаю что-то с дровами, т.к. на одном из старых дистров система видела 2 звуковых устройства и можно было выбирать: 1-е для звука через HDMI, в...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1954" id="p1954"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1954&amp;sid=71bd37537e5b082049906282748039b4#p1954">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 07 ноя 2013, 01:03&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Поставил Вашу сборку на десктоп, у которого мама Zotac (Intel Atom) и интегрированная видеокарта Nvidia. Звук НЕ работает, точнее работает только стерео-режим. Пробовал разные дрова от Nvidia, сносил-ставил Alsa, Pulsaudio, Pavucontrol, но - только стерео. Такое ощущение, что система некорректно опр...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1919" id="p1919"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1919&amp;sid=71bd37537e5b082049906282748039b4#p1919">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 29 окт 2013, 18:39&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Заметил нюанс: в Lenovo G580 в режиме сompatibility регулировка яркости работает, а в режиме ahci - нет.</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1918" id="p1918"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1918&amp;sid=71bd37537e5b082049906282748039b4#p1918">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 29 окт 2013, 13:38&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Поставил Вашу сборку на десктоп, у которого мама Asus 35M1-Mpro (AMD) и интегрированная видеокарта AMD. Всё работает.<br/>СпасиБо за сборку!</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1916" id="p1916"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1916&amp;sid=71bd37537e5b082049906282748039b4#p1916">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 22 окт 2013, 22:51&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody"><div class="quotetitle">Lazarus писал(а):</div><div class="quotecontent">Не устанавливал данный словарь, поэтому, к сожалению, конкретных советов дать не смогу...</div><br/>Дали мне ссылку <a href="https://web.archive.org/web/20260604191410/http://www.linuxportal.vrn.ru/?q=node/25" class="postlink" target="_blank">http://www.linuxportal.vrn.ru/?q=node/25</a> как этот словарь установить, но не силен я в этом. Посмотрите Вы, это в Минт получится? (Можно ведь будет и в сборки включать)</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1912" id="p1912"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1912&amp;sid=71bd37537e5b082049906282748039b4#p1912">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 18 окт 2013, 23:56&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Как прикрутить этот словарь: <!-- m --><a class="postlink" href="https://web.archive.org/web/20260604191410/http://www.multitran.ru/c/m.exe?a=5&amp;s=linux.htm&amp;hl=2">http://www.multitran.ru/c/m.exe?a=5&amp;s=linux.htm&amp;hl=2</a><!-- m --> ?</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1908" id="p1908"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1908&amp;sid=71bd37537e5b082049906282748039b4#p1908">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 18 окт 2013, 16:08&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Разобрался. Прикрутил Compiz, Emerald - эффекты работают. Поставил Wine и Цитату из Библии.ехе - работают. Первые сутки - полет нормальный. Вопрос: а если теперь в MDM config включить анимированный вход, не будет конфликтов? Обнаружил проблемку: файлы по русски в архиве кракозябрами... переустановил...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1898" id="p1898"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1898&amp;sid=71bd37537e5b082049906282748039b4#p1898">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 06 окт 2013, 22:29&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody"> Compiz --replace выполняли? Нет. Как это сделать? Настройки компиза смотрели? Да. Драйверы на видео установлены? Да. Обращаю внимание, что compiz из официальных репозиториев с mate не очень хорошо дружит . Помню это Ваше предупреждение, потому и спросил. Вот в этой сборке работает, правда не совсем...</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+			<tr class="row2">
+						<td colspan="2" height="25"><p class="topictitle"><a name="p1894" id="p1894"></a>&nbsp;Форум: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?f=41&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint Ubuntu Edition</a> &nbsp; Тема: <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;sid=71bd37537e5b082049906282748039b4">Linux Mint 13 Maya (MATE) by Lazarus</a> </p></td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="middle"><b class="postauthor"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=193&amp;sid=71bd37537e5b082049906282748039b4">Jeka2</a></b></td>
+				<td height="25">
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tr>
+						<td class="gensmall">
+							<div style="float: left;">
+															&nbsp;<b>Заголовок сообщения:</b> <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewtopic.php?f=41&amp;t=74&amp;p=1894&amp;sid=71bd37537e5b082049906282748039b4#p1894">Re: Linux Mint 13 Maya (MATE) by Lazarus</a> 
+														</div>
+							<div style="float: right;"><b>Добавлено:</b> 29 сен 2013, 18:28&nbsp;</div>
+						</td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+			<tr class="row1">
+				<td width="150" align="center" valign="top"><br/><span class="postdetails">Ответы: <b>86</b><br/>Просмотры: <b>19927</b></span><br/><br/></td>
+				<td valign="top">
+					<table width="100%" cellspacing="5">
+					<tr>
+						<td class="postbody">Поставил компиз, всё обновил, но никаких эффектов не добился. Данный Мате не для этого или у меня руки кривые? <img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/smilies/icon_e_smile.gif" alt=":)" title="Улыбается"/></td>
+					</tr>
+					</table>
+				</td>
+			</tr>
+				<tr>
+			<td class="spacer" colspan="2"><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/images/spacer.gif" height="1" alt=""/></td>
+		</tr>
+		<tr>
+		<td class="cat" colspan="2" align="center"><span class="gensmall">Поле сортировки:</span> <select name="sk"><option value="a">Автор</option><option value="t" selected="selected">Время размещения</option><option value="f">Форум</option><option value="i">Название темы</option><option value="s">Заголовок сообщения</option></select> <select name="sd"><option value="a">по возрастанию</option><option value="d" selected="selected">по убыванию</option></select>&nbsp;<input class="btnlite" type="submit" name="sort" value="Перейти"/></td>
+	</tr>
+	</table>
+
+</form>
+
+<div class="gensmall" style="float: left;"><span class="nav">Страница <strong>1</strong> из <strong>2</strong></span> [ Результатов поиска: 20 ]</div>
+<div class="nav" style="float: right;"><b><a href="search.php@author_id=193&amp;sr=posts&amp;sid=802bd801e62af992127d41d8a0a79622.html#" onclick="jumpto(); return false;" title="Перейти на страницу…">На страницу</a> <strong>1</strong><span class="page-sep">, </span><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/search.php?st=0&amp;sk=t&amp;sd=d&amp;sid=71bd37537e5b082049906282748039b4&amp;author_id=193&amp;start=10">2</a> &nbsp;<a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/search.php?st=0&amp;sk=t&amp;sd=d&amp;sid=71bd37537e5b082049906282748039b4&amp;author_id=193&amp;start=10">След.</a></b></div>
+
+<br clear="all"/><br/>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/portal.php?sid=71bd37537e5b082049906282748039b4">Портал</a> &#187; <a href="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/index.php?sid=71bd37537e5b082049906282748039b4">Список форумов</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+<br clear="all"/>
+
+<div align="right">	<form method="post" name="jumpbox" action="https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/viewforum.php?sid=71bd37537e5b082049906282748039b4" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Перейти:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Выберите форум</option>
+		<option value="-1">------------------</option>			<option value="24">Страница проекта на sourceforge.net</option>
+					<option value="37">Обсуждение операционных систем</option>
+					<option value="38">&nbsp; &nbsp;ALT Linux</option>
+					<option value="53">&nbsp; &nbsp;Arch Linux</option>
+					<option value="39">&nbsp; &nbsp;Debian GNU/Linux</option>
+					<option value="40">&nbsp; &nbsp;Fedora Linux</option>
+					<option value="61">&nbsp; &nbsp;Linux Mint Debian Edition</option>
+					<option value="41">&nbsp; &nbsp;Linux Mint Ubuntu Edition</option>
+					<option value="42">&nbsp; &nbsp;Mageia/Mandriva/ROSA Linux</option>
+					<option value="43">&nbsp; &nbsp;openSUSE</option>
+					<option value="54">&nbsp; &nbsp;Slackware</option>
+					<option value="44">&nbsp; &nbsp;(X)Ubuntu Linux</option>
+					<option value="63">&nbsp; &nbsp;Android</option>
+					<option value="51">&nbsp; &nbsp;Другие *NIX</option>
+					<option value="52">&nbsp; &nbsp;Вопросы, касающиеся всех дистрибутивов</option>
+					<option value="4">Общий раздел</option>
+					<option value="60">&nbsp; &nbsp;Духовная литература</option>
+					<option value="29">&nbsp; &nbsp;Поздравления</option>
+					<option value="27">&nbsp; &nbsp;Разговоры о серьезном</option>
+					<option value="62">&nbsp; &nbsp;Разное</option>
+					<option value="6">&nbsp; &nbsp;О форуме</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Перейти"/></td>
+	</tr>
+	</table>
+
+	</form>
+</div>
+
+<br/>
+<center>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-3870915087688395";
+google_analytics_domain="none";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_channel = "1564794664";
+google_ui_features = "rc:10";
+google_ad_type = "text_image";
+//google_ad_type = "image";
+google_color_bg = "F8F8F8";
+google_color_border = "F8F8F8";
+google_alternate_ad_url = "https://web.archive.org/web/20260604191410/http://lazarus.iboards.ru/srv/alt1.html";
+google_color_link = "2E5B82";
+google_color_url = "909090";
+google_color_text = "909090";
+
+//-->
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20260604191410js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+</td></tr></table>
+</center>
+<br/><img src="https://web.archive.org/web/20260604191410im_/http://lazarus.iboards.ru/cron.php?cron_type=tidy_sessions&amp;sid=71bd37537e5b082049906282748039b4" width="1" height="1" alt="cron"/></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="https://web.archive.org/web/20260604191410/http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br/>Вы можете <a href="https://web.archive.org/web/20260604191410/http://getbb.ru/">создать форум бесплатно</a> PHPBB3 на Getbb.Ru, Также возможно <a href="https://web.archive.org/web/20260604191410/http://mybb2.ru/">сделать готовый форум</a> PHPBB2 на Mybb2.ru <br/><a href="https://web.archive.org/web/20260604191410/http://www.phpbbguru.net/">Русская поддержка phpBB</a></span>
+</div>
+
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "https://web.archive.org/web/20260604191410/http://counter.yadro.ru/hit;getbb?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet--></body>
+</html><!--
+     FILE ARCHIVED ON 19:14:10 Jun 04, 2026 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:14:17 Jun 04, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 0.482
+  captures_list: 0.793
+  exclusion.robots: 0.085
+  exclusion.robots.policy: 0.07
+  esindex: 0.013
+  cdx.remote: 8.71
+  LoadShardBlock: 116.891 (3)
+  PetaboxLoader3.datanode: 98.7 (3)
+  load_resource: 4.064
+-->

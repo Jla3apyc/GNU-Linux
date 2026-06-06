@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-ru" xml:lang="ru-ru">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=2N_sDSC0" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://lazarus.iboards.ru/viewtopic.php?f=63&amp;p=3105&amp;sid=802bd801e62af992127d41d8a0a79622","20260604192609","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1780601169");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="content-language" content="ru-ru"/>
+<meta http-equiv="content-style-type" content="text/css"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="resource-type" content="document"/>
+<meta name="distribution" content="global"/>
+<meta name="copyright" content="2002-2006 phpBB Group"/>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<title>Lazarus project &bull; Просмотр темы - Удаление системных приложений Android без root</title>
+
+<link rel="alternate" type="application/rss+xml" title="Lazarus project" href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/rss.php"/>
+<link rel="stylesheet" href="https://web.archive.org/web/20260604192609cs_/http://lazarus.iboards.ru/style.php?sid=6cef78f5c2d29fa883c269415c31189d&amp;id=22&amp;lang=en" type="text/css"/>
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Введите номер страницы, на которую хотите перейти:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/index.php?sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/images/ranks/lazarus_iboards_ru/logo.png" alt="" title=""/></a></td>
+			<td width="100%" align="center"><p><h1 style="font-size: 30px; color: #660099">Lazarus project</h1></p><p><h1 style="font-size: 15px;"></h1></p></td>
+		</tr>
+		</table>
+	</div>
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/ucp.php?mode=login&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_login.gif" width="12" height="13" alt="*"/> Вход</a>&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/ucp.php?mode=register&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_register.gif" width="12" height="13" alt="*"/> Регистрация</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/gallery/index.php?sid=6cef78f5c2d29fa883c269415c31189d" title="Альбомы изображений"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_gallery.gif" width="12" height="13" alt="*"/> Альбомы</a>&nbsp; &nbsp;
+				<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/faq.php?sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_faq.gif" width="12" height="13" alt="*"/> FAQ</a>
+				&nbsp; &nbsp;<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/search.php?sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/theme/images/icon_mini_search.gif" width="12" height="13" alt="*"/> Поиск</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Текущее время: 04 июн 2026, 22:26<br/></td>
+		</tr>
+		</table>
+	</div>
+</div>
+
+<div id="wrapcentre">
+	<p class="searchbar">
+		<span style="float: left;"><a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/search.php?search_id=unanswered&amp;sid=6cef78f5c2d29fa883c269415c31189d">Сообщения без ответов</a> | <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/search.php?search_id=active_topics&amp;sid=6cef78f5c2d29fa883c269415c31189d">Активные темы</a></span>
+			</p>
+	
+	<br style="clear: both;"/>
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/portal.php?sid=6cef78f5c2d29fa883c269415c31189d">Портал</a> &#187; <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/index.php?sid=6cef78f5c2d29fa883c269415c31189d">Список форумов</a> &#187; <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=6cef78f5c2d29fa883c269415c31189d">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewforum.php?f=63&amp;sid=6cef78f5c2d29fa883c269415c31189d">Android</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table>
+	<br/>
+
+<div id="pageheader">
+	<h2><a class="titles" href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewtopic.php?f=63&amp;t=639&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=6cef78f5c2d29fa883c269415c31189d">Удаление системных приложений Android без root</a></h2>
+
+</div>
+
+<br clear="all"/><br/>
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=63&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=63&amp;t=639&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>1</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 1 сообщение ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewtopic.php?f=63&amp;t=639&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=6cef78f5c2d29fa883c269415c31189d&amp;view=print" title="Для печати">Для печати</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewtopic.php?f=63&amp;t=639&amp;view=previous&amp;sid=6cef78f5c2d29fa883c269415c31189d">Пред. тема</a> | <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewtopic.php?f=63&amp;t=639&amp;view=next&amp;sid=6cef78f5c2d29fa883c269415c31189d">След. тема</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Автор</th>
+			<th>Сообщение</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p3105"></a>
+				<b class="postauthor" style="color: #AA0000">Lazarus</b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Заголовок сообщения:</b> Удаление системных приложений Android без root</div><div style="float: right;"><a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewtopic.php?p=3105&amp;sid=6cef78f5c2d29fa883c269415c31189d#p3105"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/icon_post_target.gif" width="12" height="9" alt="Сообщение" title="Сообщение"/></a><b>Добавлено:</b> 10 мар 2019, 17:17&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_offline.gif" alt="Не в сети" title="Не в сети"/></td>
+				</tr>
+							<tr>
+					<td class="postdetails">Администратор</td>
+				</tr>
+							<tr>
+					<td><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/images/avatars/upload/lazarus_iboards_ru/c142221d528ebb74568a4013d1829b09_2.png?1378831490" width="120" height="107" alt="Аватара пользователя"/></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br/><b>Зарегистрирован:</b> 21 сен 2011, 21:49<br/><b>Сообщений:</b> 382<br/><b>Cпасибо сказано:</b> 27<br/><b>Спасибо получено:</b><br/> 195 раз в 146 сообщениях				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><!-- google_ad_section_start --><span style="font-weight: bold">Как удалить системные приложения без root прав</span><br/><br/>- Скачиваем и копируем в отдельную папку набор программ с ADB.<br/>- Устанавливаем приложение App Inspector на смартфон.<br/>- Подключаем смартфон к компьютеру. Ждем, пока система обнаружит и настроит новое устройство. Желательно отключить лишние устройства от USB-портов.<br/>- Активируем пункт &quot;Отладка по USB&quot; на смартфоне, для чего заходим в настройки смартфона, внизу списка открываем &quot;Параметры разработчика&quot;, включаем режим &quot;Параметры разработчика&quot; и &quot;отладка по USB&quot;. Если у вас нет пункта &quot;для разработчика&quot;, в настройках зайдите в меню &quot;Об устройстве&quot; --&gt; &quot;Сведения о ПО&quot; и на строке &quot;Номер сборки&quot; быстро тапайте 7 раз, пока не появится надпись &quot;Теперь вы стали разработчиком!&quot;.<br/>- В папке программ с ADB запускаем командную строку. В Windows 10 это можно сделать так: при зажатой клавише &quot;Shift&quot; щелкаем правой кнопкой мыши в папке, в выпадающем меню выбираем &quot;Открыть окно PowerShell здесь&quot;, в открывшемся окне вводим &quot;cmd&quot; и нажимаем &quot;Enter&quot;.<br/>- Убеждаемся, что компьютер находит устройство по ADB. Для этого необходимо ввести &quot;adb devices&quot; в командную строку. На появившейся запрос на телефоне о разрешении об отладке по ADB на данном компьютере необходимо нажать &quot;Ok&quot;, при этом выбрав пункт &quot;Всегда разрешать с этого компьютера&quot;. Если устройство видно, то выведется текст &quot;List of devices attached&quot; и список всех устройств (например, xxxxxxx device). Если же вместо &quot;device&quot; будет написано &quot;offline&quot; либо список окажется пустым, то необходимо обновить ADB, проверить драйвера/шнур, поменять порт USB/компьютер.<br/>- Запускаем утилиту App Inspector и выбираем пункт App List (Ordered by name). Находим и выбираем удаляемое приложение. Под именем программы будет отображено имя пакета и его версия.<br/>- В командной строке вводим &quot;adb shell&quot;. Внешне ничего не произойдет, только вид приглашения в строке станет немного другим.<br/>- Вводим &quot;pm uninstall -k --user 0 name.of.package&quot; , где name.of.package — имя удаляемого пакета, которое ранее узнали в App Inspector.<br/>- &quot;Success&quot; – означает успешное выполнение команды удаления.<br/>Чтобы не набирать длинную команду сто раз, после первого набора и исполнения можно нажать стрелку вверх, вызвав тем самым последнюю введенную команду и поправить в ней окончание для следующей удаляемой программы.<br/>Для отключения режима &quot;Параметры разработчика&quot; необходимо зайти в &quot;Настройки&quot; --&gt; &quot;Приложения&quot; --&gt; &quot;Диспетчер приложений&quot; (путь может отличаться), переключаемся на вкладку &quot;Все&quot;, открываем приложение &quot;Настройки&quot; и нажимаем &quot;Очистить данные&quot;.<br/><br/>Обобщено из разных (<a href="https://web.archive.org/web/20260604192609/https://www.yaplakal.com/forum7/topic1798699.html" class="postlink" target="_blank">1</a>, <a href="https://web.archive.org/web/20260604192609/https://remontka.pro/developer-mode-android/" class="postlink" target="_blank">2</a>) источников.<!-- google_ad_section_end --></div>
+
+					<br clear="all"/><br/>
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="viewtopic.php@f=63&amp;p=3105&amp;sid=802bd801e62af992127d41d8a0a79622.html#wrapheader">Вернуться к началу</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/icon_user_profile.gif" alt="Профиль" title="Профиль"/></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/thanks.php?p=3105&amp;mode=thanks&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2/imageset/ru/thankposts.gif" alt="Cпасибо сказано"/></a>&nbsp;</div></td>
+   <tr>
+      <td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+   </tr><tr class="row2">
+   <td valign="top" style="padding-left: 4px;"></td>
+      <td style="text-align: left;">За это сообщение пользователю <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=2&amp;sid=6cef78f5c2d29fa883c269415c31189d" style="color: #AA0000;" class="username-coloured">Lazarus</a> "Спасибо" сказали:<br/> <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/memberlist.php?mode=viewprofile&amp;u=65&amp;sid=6cef78f5c2d29fa883c269415c31189d" style="color: #00AA00;" class="username-coloured">Mantikora</a></td>
+   </tr>
+		</tr>
+
+		
+	<tr>
+		<td class="spacer" colspan="2" height="1"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/images/spacer.gif" alt="" width="1" height="1"/></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewtopic.php?f=63&amp;t=639&amp;sid=6cef78f5c2d29fa883c269415c31189d"><span class="gensmall">Показать сообщения за:</span> <select name="st"><option value="0" selected="selected">Все сообщения</option><option value="1">1 день</option><option value="7">7 дней</option><option value="14">2 недели</option><option value="30">1 месяц</option><option value="90">3 месяца</option><option value="180">6 месяцев</option><option value="365">1 год</option></select>&nbsp;<span class="gensmall">Поле сортировки</span> <select name="sk"><option value="a">Автор</option><option value="t" selected="selected">Время размещения</option><option value="s">Заголовок</option></select> <select name="sd"><option value="a" selected="selected">по возрастанию</option><option value="d">по убыванию</option></select>&nbsp;<input class="btnlite" type="submit" value="Перейти" name="sort"/></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/posting.php?mode=post&amp;f=63&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_new.gif" alt="Начать новую тему" title="Начать новую тему"/></a>&nbsp;<a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/posting.php?mode=reply&amp;f=63&amp;t=639&amp;sid=6cef78f5c2d29fa883c269415c31189d"><img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/styles/subsilver2-modded/imageset/ru/button_topic_reply.gif" alt="Ответить на тему" title="Ответить на тему"/></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Страница <strong>1</strong> из <strong>1</strong><br/></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 1 сообщение ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all"/>
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/portal.php?sid=6cef78f5c2d29fa883c269415c31189d">Портал</a> &#187; <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/index.php?sid=6cef78f5c2d29fa883c269415c31189d">Список форумов</a> &#187; <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewforum.php?f=37&amp;sid=6cef78f5c2d29fa883c269415c31189d">Обсуждение операционных систем</a> &#187; <a href="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewforum.php?f=63&amp;sid=6cef78f5c2d29fa883c269415c31189d">Android</a></p>
+			<p class="datetime">Часовой пояс: UTC + 3 часа </p>
+		</td>
+	</tr>
+	</table><br/>
+<center>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "pub-3870915087688395";
+google_analytics_domain="lazarus.iboards.ru";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_channel = "1564794664";
+google_ui_features = "rc:10";
+google_ad_type = "text_image";
+//google_ad_type = "image";
+google_color_bg = "F8F8F8";
+google_color_border = "F8F8F8";
+google_color_link = "2E5B82";
+google_color_url = "909090";
+google_alternate_ad_url = "https://web.archive.org/web/20260604192609/http://getbb.ru/srv/alt1.html";
+google_color_text = "909090";
+
+//-->
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20260604192609js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+</td></tr></table>
+</center>	<br clear="all"/>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Кто сейчас на конференции</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Сейчас этот форум просматривают: нет зарегистрированных пользователей и гости: 2</p></td>
+	</tr>
+	</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Вы <strong>не можете</strong> начинать темы<br/>Вы <strong>не можете</strong> отвечать на сообщения<br/>Вы <strong>не можете</strong> редактировать свои сообщения<br/>Вы <strong>не можете</strong> удалять свои сообщения<br/>Вы <strong>не можете</strong> добавлять вложения<br/></span></td>
+</tr>
+</table>
+
+<br clear="all"/>
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/search.php?t=639&amp;sid=6cef78f5c2d29fa883c269415c31189d"><span class="gensmall">Найти:</span> <input class="post" type="text" name="keywords" size="20"/> <input class="btnlite" type="submit" value="Перейти"/></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="https://web.archive.org/web/20260604192609/http://lazarus.iboards.ru/viewforum.php?sid=6cef78f5c2d29fa883c269415c31189d" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Перейти:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Выберите форум</option>
+		<option value="-1">------------------</option>			<option value="24">Страница проекта на sourceforge.net</option>
+					<option value="37">Обсуждение операционных систем</option>
+					<option value="38">&nbsp; &nbsp;ALT Linux</option>
+					<option value="53">&nbsp; &nbsp;Arch Linux</option>
+					<option value="39">&nbsp; &nbsp;Debian GNU/Linux</option>
+					<option value="40">&nbsp; &nbsp;Fedora Linux</option>
+					<option value="61">&nbsp; &nbsp;Linux Mint Debian Edition</option>
+					<option value="41">&nbsp; &nbsp;Linux Mint Ubuntu Edition</option>
+					<option value="42">&nbsp; &nbsp;Mageia/Mandriva/ROSA Linux</option>
+					<option value="43">&nbsp; &nbsp;openSUSE</option>
+					<option value="54">&nbsp; &nbsp;Slackware</option>
+					<option value="44">&nbsp; &nbsp;(X)Ubuntu Linux</option>
+					<option value="63" selected="selected">&nbsp; &nbsp;Android</option>
+					<option value="51">&nbsp; &nbsp;Другие *NIX</option>
+					<option value="52">&nbsp; &nbsp;Вопросы, касающиеся всех дистрибутивов</option>
+					<option value="4">Общий раздел</option>
+					<option value="60">&nbsp; &nbsp;Духовная литература</option>
+					<option value="29">&nbsp; &nbsp;Поздравления</option>
+					<option value="27">&nbsp; &nbsp;Разговоры о серьезном</option>
+					<option value="62">&nbsp; &nbsp;Разное</option>
+					<option value="6">&nbsp; &nbsp;О форуме</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Перейти"/></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<img src="https://web.archive.org/web/20260604192609im_/http://lazarus.iboards.ru/cron.php?cron_type=tidy_sessions&amp;sid=6cef78f5c2d29fa883c269415c31189d" width="1" height="1" alt="cron"/></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="https://web.archive.org/web/20260604192609/http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br/>Вы можете <a href="https://web.archive.org/web/20260604192609/http://getbb.ru/">создать форум бесплатно</a> PHPBB3 на Getbb.Ru, Также возможно <a href="https://web.archive.org/web/20260604192609/http://mybb2.ru/">сделать готовый форум</a> PHPBB2 на Mybb2.ru <br/><a href="https://web.archive.org/web/20260604192609/http://www.phpbbguru.net/">Русская поддержка phpBB</a></span>
+</div>
+
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "https://web.archive.org/web/20260604192609/http://counter.yadro.ru/hit;getbb?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet--></body>
+</html><!--
+     FILE ARCHIVED ON 19:26:09 Jun 04, 2026 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:26:12 Jun 04, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  capture_cache.get: 0.371
+  captures_list: 0.508
+  exclusion.robots: 0.051
+  exclusion.robots.policy: 0.041
+  esindex: 0.009
+  cdx.remote: 6.965
+  LoadShardBlock: 59.867 (3)
+  PetaboxLoader3.datanode: 41.593 (3)
+  PetaboxLoader3.resolve: 16.021
+  load_resource: 14.097
+-->
